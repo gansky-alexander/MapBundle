@@ -1,0 +1,5 @@
+map_index:
+    resource: "@GanskyMapBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
