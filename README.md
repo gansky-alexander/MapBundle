@@ -3,7 +3,7 @@ MapBundle
 
 How to install:
 1. Update AppCernel.php
-```
+``` php
         $bundles = array(
             ...
             new JMS\AopBundle\JMSAopBundle(),
@@ -15,7 +15,7 @@ How to install:
 
 2. Update routing.yml
 
-```
+``` yaml
 gansky_map:
   	  resource: "@GanskyMapBundle/Controller/"
   	  type:     annotation
@@ -23,7 +23,7 @@ gansky_map:
 ```
 
 3. composer.json
-```
+``` js
 {
     ...
     "require": { 
