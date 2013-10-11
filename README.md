@@ -3,6 +3,7 @@ MapBundle
 
 How to install:
 1. Update AppCernel.php
+
 ``` php
         $bundles = array(
             ...
@@ -23,7 +24,8 @@ gansky_map:
 ```
 
 3. composer.json
-``` js
+
+```js
 {
     ...
     "require": { 
