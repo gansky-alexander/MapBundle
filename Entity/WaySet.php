@@ -31,6 +31,10 @@ class WaySet
      */
     private $way;
 
+    public function __clone() {
+        $this->id = null;
+    }
+
     /**
      * Get id
      *
