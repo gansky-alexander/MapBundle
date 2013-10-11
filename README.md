@@ -3,6 +3,7 @@ MapBundle
 
 How to install:
 1. Update AppCernel.php
+```
         $bundles = array(
             ...
             new JMS\AopBundle\JMSAopBundle(),
@@ -10,14 +11,19 @@ How to install:
             new JMS\DiExtraBundle\JMSDiExtraBundle($this),
             new Gansky\MapBundle\GanskyMapBundle(),
         );
+```
 
 2. Update routing.yml
-	gansky_map:
+
+```
+gansky_map:
   	  resource: "@GanskyMapBundle/Controller/"
   	  type:     annotation
   	  prefix:   /
+```
 
 3. composer.json
+```
 {
     "name": "gansky/map-bundle",
     "license": "MIT",
@@ -74,5 +80,5 @@ How to install:
         }
     }
 }
-
+```
 Bundle for map.
