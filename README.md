@@ -23,7 +23,7 @@ gansky_map:
 ```
 
 3. composer.json
-```
+```JSON
 {
     "name": "gansky/map-bundle",
     "license": "MIT",
