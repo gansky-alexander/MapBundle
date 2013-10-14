@@ -13,7 +13,6 @@ use Doctrine\ORM\Mapping as ORM;
 class Point
 {
     /**
-     * @var integer
      *
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
@@ -22,14 +21,12 @@ class Point
     private $id;
 
     /**
-     * @var float
      *
      * @ORM\Column(name="latitude", type="float")
      */
     private $latitude;
 
     /**
-     * @var float
      *
      * @ORM\Column(name="longitude", type="float")
      */

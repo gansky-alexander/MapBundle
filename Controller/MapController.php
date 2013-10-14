@@ -11,7 +11,7 @@ use JMS\DiExtraBundle\Annotation as DI;
 /**
 * @Route("/map")
 */
-class DefaultController extends Controller
+class MapController extends Controller
 {
 
     /**
@@ -25,6 +25,6 @@ class DefaultController extends Controller
      */
     public function indexAction()
     {
-      
+      return array();
     }
 }

@@ -13,7 +13,6 @@ use Doctrine\ORM\Mapping as ORM;
 class WaySet
 {
     /**
-     * @var integer
      *
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id

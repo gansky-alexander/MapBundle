@@ -22,6 +22,7 @@ class LoadDataCommand extends ContainerAwareCommand
     protected function execute(InputInterface $input, OutputInterface $output)
     {
         $filename = $input->getArgument('filename');
+        
         $output->writeln($filename);
     }
 }

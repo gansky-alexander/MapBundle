@@ -13,7 +13,6 @@ use Doctrine\ORM\Mapping as ORM;
 class Way
 {
     /**
-     * @var integer
      *
      * @ORM\Column(name="id", type="integer")
      * @ORM\Id
@@ -22,11 +21,17 @@ class Way
     private $id;
 
     /**
-     * @var string
      *
      * @ORM\Column(name="name", type="string", length=255)
      */
     private $name;
+
+    /**
+     * Level of the map.
+     *
+     * @ORM\Column(name="level", type="integer")
+     */
+    private $level;
 
     /**
      * @ORM\OneToMany(targetEntity="Gansky\MapBundle\Entity\WaySet", mappedBy="way")
@@ -104,5 +109,28 @@ class Way
     public function getWaySet()
     {
         return $this->waySet;
+    }
+
+    /**
+     * Set level
+     *
+     * @param integer $level
+     * @return Way
+     */
+    public function setLevel($level)
+    {
+        $this->level = $level;
+    
+        return $this;
+    }
+
+    /**
+     * Get level
+     *
+     * @return integer 
+     */
+    public function getLevel()
+    {
+        return $this->level;
     }
 }

@@ -12,8 +12,27 @@ use Gansky\MapBundle\Entity\WaySet;
 use Gansky\MapBundle\Entity\Point;
 
 /**
-* 300000 m - top level for map
-*
+* 20 m - 1 level for map
+* 20 m - 2 level for map
+* 20 m - 3 level for map
+* 100 m - 4 level for map
+* 100 m - 5 level for map
+* 500 m - 6 level for map
+* 1000 m - 7 level for map
+* 2000 m - 8 level for map
+* 5000 m - 9 level for map
+* 10000 m - 10 level for map
+* 20000 m - 11 level for map
+* 20000 m - 12 level for map
+* 50000 m - 13 level for map
+* 
+* 
+* 
+* 100000 m - 14 level for map
+* 100000 m - 15 level for map
+* 100000 m - 16 level for map
+* 100000 m - 17 level for map
+* 100000 m - 18 level for map
 */
 class PrepareDataCommand extends ContainerAwareCommand
 {
@@ -24,6 +43,7 @@ class PrepareDataCommand extends ContainerAwareCommand
             ->setName('map:prepare-data')
             ->setDescription('Prepare data from row data in database.')
             ->addArgument('distance', InputArgument::REQUIRED, 'Distance between two points?')
+            ->addArgument('level', InputArgument::REQUIRED, 'Level of the map?')
         ;
     }
 
@@ -31,9 +51,11 @@ class PrepareDataCommand extends ContainerAwareCommand
     {
         $em = $this->getContainer()->get('doctrine')->getEntityManager();
         $distance = $input->getArgument('distance');
+        $level = $input->getArgument('level');
         
         $way = new Way();
         $way->setName('Way for new level');
+        $way->setLevel($level);
         $em->persist($way);
 
         $sets = $em->getRepository('GanskyMapBundle:WaySet')
@@ -48,16 +70,19 @@ class PrepareDataCommand extends ContainerAwareCommand
         $firstWaySet->setWay($way);
         $i = 0;
         foreach($sets AS $key => $value) {
+            // var_dump($this->getDistance($firstWaySet->getPoint(), $value->getPoint()));  
             if($this->getDistance($firstWaySet->getPoint(), $value->getPoint()) >= $distance) {
-                var_dump($i++);
+                $output->writeln($i++);
                 $firstWaySet = $value;
+                $firstWaySet->setWay($way);
             }
         }
-
-
-        // $em->flush();
+        $em->flush();
     }
 
+/**
+* Return distance in meters.
+*/
 public static function getDistance($point1, $point2) {
 $M_PI = 3.14159265358979323846264338327950288;
   $lat1 = $point1->getLatitude() * $M_PI / 180;
