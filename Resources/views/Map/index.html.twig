@@ -1,41 +1,50 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
-  <head>
-    <title>MapBundle</title>
-    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
-     <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
-     <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
-  </head>
-  <body>
-  	<div id="map" style="height: 650px;"></div>
-  	<script type="text/javascript">
-  		var map = L.map('map').setView([47, 25], 4);
-		L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
-   		 attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
-		}).addTo(map);
+    <head>
+        <title>MapBundle</title>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+        <script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
+        <script src="http://code.jquery.com/jquery-2.0.2.min.js"></script>
+    </head>
+    <body>
+        <div id="map" style="height: 650px;"></div>
+        <script type="text/javascript">
+            var map = L.map('map').setView([47, 25], 4);
+            L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+                attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+            }).addTo(map);
 
-		map.on('zoomstart', function(e) {
-   		    zoomstart(e);
-		});
+            map.on('zoomstart', function(e) {
+                zoomstart(e);
+            });
 
-		map.on('zoomend', function(e) {
-    		zoomend(e);
-		});
+            map.on('zoomend', function(e) {
+                zoomend(e);
+            });
 
-		function zoomstart(e) {
-			//todo - delete all poligon objects
-		}
+            function zoomstart(e) {
+                //todo - delete all poligon objects
+            }
+            
+            function zoomend(e) {
+                console.log(map.getBounds().getSouthWest());
+                console.log(map.getBounds().getNorthEast());
+                console.log(map.getZoom());
 
-
-		function zoomend(e) {
-			// todo - send request to get poligon points to raw
-			// console.log(e.target._animateToZoom);
-			// console.log(e);
-
-
-		}
-
-
-  	</script>
-  </body>
+                $.ajax({
+                    type: "POST",
+                    url: "{{  path('get_bounds_action') }}",
+                    data: { 
+                        zoom: map.getZoom(),
+                        south_west_latitude: map.getBounds().getSouthWest().lat,
+                        south_west_longitude: map.getBounds().getSouthWest().lng,
+                        north_east_latitude: map.getBounds().getNorthEast().lat,
+                        north_east_longitude: map.getBounds().getNorthEast().lng
+                    }
+                }).done(function(msg) {
+                    console.log(msg);
+                });
+            }
+        </script>
+    </body>
 </html>
