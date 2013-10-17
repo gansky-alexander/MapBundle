@@ -7,6 +7,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 use Sensio\Bundle\FrameworkExtraBundle\Configuration\Template;
 use Gansky\MapBundle\Entity\Point;
 use JMS\DiExtraBundle\Annotation as DI;
+use Doctrine\ORM\Query;
 
 /**
  * @Route("/map")
@@ -43,6 +44,7 @@ class MapController extends Controller {
 
         $bounds = $this->em->getRepository('GanskyMapBundle:Point')
                 ->createQueryBuilder('p')
+                ->select('p.latitude, p.longitude')
                 ->innerJoin('p.waySet', 'ws')
                 ->innerJoin('ws.way', 'w')
                 ->andWhere('w.level = :way_level')
@@ -55,8 +57,7 @@ class MapController extends Controller {
                     'south_west_longitude' => $south_west_longitude,
                     'north_east_longitude' => $north_east_longitude))
                 ->getQuery()
-                ->getResult();
-        
+                ->getResult(Query::HYDRATE_ARRAY);
         return new \Symfony\Component\HttpFoundation\JsonResponse($bounds);
     }
 

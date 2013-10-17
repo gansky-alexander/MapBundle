@@ -25,16 +25,12 @@
             function zoomstart(e) {
                 //todo - delete all poligon objects
             }
-            
-            function zoomend(e) {
-                console.log(map.getBounds().getSouthWest());
-                console.log(map.getBounds().getNorthEast());
-                console.log(map.getZoom());
 
+            function zoomend(e) {
                 $.ajax({
                     type: "POST",
                     url: "{{  path('get_bounds_action') }}",
-                    data: { 
+                    data: {
                         zoom: map.getZoom(),
                         south_west_latitude: map.getBounds().getSouthWest().lat,
                         south_west_longitude: map.getBounds().getSouthWest().lng,
@@ -42,7 +38,12 @@
                         north_east_longitude: map.getBounds().getNorthEast().lng
                     }
                 }).done(function(msg) {
-                    console.log(msg);
+                    var latlngs = new Array();
+                    $.each(msg, function(index, value) {
+                        latlngs.push(new L.LatLng(value.latitude, value.longitude));
+                    });
+                    console.log(latlngs);
+                    L.Polygon(latlngs).addTo(map);
                 });
             }
         </script>
