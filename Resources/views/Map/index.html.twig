@@ -10,25 +10,29 @@
         <div id="map" style="height: 650px;"></div>
         <script type="text/javascript">
             var map = L.map('map').setView([47, 25], 4);
+            // array pf polygons for search and radraw
+            var polygons = new Array();
+            var layer = new L.LayerGroup().addTo(map);
             L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
                 attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
             }).addTo(map);
-
-            map.on('zoomstart', function(e) {
-                zoomstart(e);
-            });
 
             map.on('zoomend', function(e) {
                 zoomend(e);
             });
 
+            map.on('click', function(e) {
+                zoomstart(e);
+            });
             function zoomstart(e) {
-                //todo - delete all poligon objects
+                $.each(polygons, function(index, value) {
+                    polygons[index] = new L.Polygon([]).addTo(map);
+                });
             }
 
             function zoomend(e) {
                 $.ajax({
-                    type: "POST",
+                    type: "GET",
                     url: "{{  path('get_bounds_action') }}",
                     data: {
                         zoom: map.getZoom(),
@@ -38,12 +42,16 @@
                         north_east_longitude: map.getBounds().getNorthEast().lng
                     }
                 }).done(function(msg) {
-                    var latlngs = new Array();
-                    $.each(msg, function(index, value) {
-                        latlngs.push(new L.LatLng(value.latitude, value.longitude));
+                    $.each(layer.getLayers(), function(index, value) {
+                        layer.removeLayer(value);
                     });
-                    console.log(latlngs);
-                    L.Polygon(latlngs).addTo(map);
+                    $.each(msg, function(way_index, way) {
+                        var latlng = new Array();
+                        $.each(way, function(point_index, point) {
+                            latlng.push(new L.LatLng(point.latitude, point.longitude));
+                        });
+                        layer.addLayer(new L.Polygon(latlng));
+                    });
                 });
             }
         </script>

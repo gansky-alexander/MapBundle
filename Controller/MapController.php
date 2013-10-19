@@ -42,9 +42,10 @@ class MapController extends Controller {
         $north_east_latitude = $this->getRequest()->get('north_east_latitude');
         $north_east_longitude = $this->getRequest()->get('north_east_longitude');
 
+        $returns = array();
         $bounds = $this->em->getRepository('GanskyMapBundle:Point')
                 ->createQueryBuilder('p')
-                ->select('p.latitude, p.longitude')
+                ->select('p.latitude, p.longitude, w.id')
                 ->innerJoin('p.waySet', 'ws')
                 ->innerJoin('ws.way', 'w')
                 ->andWhere('w.level = :way_level')
@@ -58,7 +59,16 @@ class MapController extends Controller {
                     'north_east_longitude' => $north_east_longitude))
                 ->getQuery()
                 ->getResult(Query::HYDRATE_ARRAY);
-        return new \Symfony\Component\HttpFoundation\JsonResponse($bounds);
-    }
+        $i = 0;
+        foreach ($bounds As $key => $value) {
+            if(!isset($returns[$value['id']])) {
+                $returns[$value['id']] = array();
+            }
+            $returns[$value['id']][$i]['latitude'] = $value['latitude'];
+            $returns[$value['id']][$i]['longitude'] = $value['longitude'];
+            $i++;
+        }
 
+        return new \Symfony\Component\HttpFoundation\JsonResponse($returns);
+    }
 }
