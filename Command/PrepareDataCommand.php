@@ -56,14 +56,12 @@ class PrepareDataCommand extends ContainerAwareCommand
                 ->getQuery()
                 ->getResult();
 
-
         foreach ($ways AS $wayIndex => $wayValue) {
-
             $way = new Way();
             $way->setName('Copy of way ' . $wayValue->getName());
             $way->setLevel($level);
             $em->persist($way);
-
+            $output->writeln($wayValue->getId());
             $sets = $em->getRepository('GanskyMapBundle:WaySet')
                     ->createQueryBuilder('ws')
                     ->innerJoin('ws.way', 'w')
@@ -72,14 +70,16 @@ class PrepareDataCommand extends ContainerAwareCommand
                     ->getQuery()
                     ->getResult();
 
-            $firstWaySet = $sets[0];
+            $firstWaySet = $sets[0]->copy();
             $firstWaySet->setWay($way);
+            $em->persist($firstWaySet);
             $i = 0;
             foreach ($sets AS $key => $value) {
                 if ($this->getDistance($firstWaySet->getPoint(), $value->getPoint()) >= $distance) {
                     $firstWaySet->setWay($way);
+                    $em->persist($firstWaySet);
                 }
-                $firstWaySet = $value;
+                $firstWaySet = $value->copy();
             }
             $em->flush();
         }

@@ -30,6 +30,13 @@ class WaySet
      */
     private $way;
 
+    public function copy() {
+        $waySet = new WaySet();
+        $waySet->point = $this->point;
+        $waySet->way = $this->way;
+        return $waySet;
+    }
+    
     public function __clone() {
         $this->id = null;
     }

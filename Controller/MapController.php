@@ -56,7 +56,8 @@ class MapController extends Controller {
                     'south_west_latitude' => $south_west_latitude,
                     'north_east_latitude' => $north_east_latitude,
                     'south_west_longitude' => $south_west_longitude,
-                    'north_east_longitude' => $north_east_longitude))
+                    'north_east_longitude' => $north_east_longitude
+                ))
                 ->getQuery()
                 ->getResult(Query::HYDRATE_ARRAY);
         $i = 0;
