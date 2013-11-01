@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.1 (24950 thorn-01.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="91294" visible="true" version="48" changeset="17122051" timestamp="2013-07-28T08:19:22Z" user="Згарбул Андрей" uid="883031">
+  <member type="way" ref="30564325" role="outer"/>
+  <member type="way" ref="128752816" role="outer"/>
+  <member type="way" ref="128687536" role="outer"/>
+  <member type="way" ref="128687535" role="outer"/>
+  <member type="way" ref="191299585" role="outer"/>
+  <member type="way" ref="128687540" role="outer"/>
+  <member type="way" ref="191298265" role="outer"/>
+  <member type="way" ref="128752800" role="outer"/>
+  <member type="way" ref="217485343" role="outer"/>
+  <member type="way" ref="217485351" role="outer"/>
+  <member type="way" ref="217485349" role="outer"/>
+  <member type="way" ref="216873437" role="outer"/>
+  <member type="way" ref="216873436" role="outer"/>
+  <member type="way" ref="216873446" role="outer"/>
+  <member type="way" ref="216873433" role="outer"/>
+  <member type="way" ref="216873450" role="outer"/>
+  <member type="way" ref="169688322" role="outer"/>
+  <member type="way" ref="216873445" role="outer"/>
+  <member type="way" ref="216873454" role="outer"/>
+  <member type="way" ref="216873457" role="outer"/>
+  <member type="way" ref="216873435" role="outer"/>
+  <member type="way" ref="216873451" role="outer"/>
+  <member type="way" ref="216873425" role="outer"/>
+  <member type="way" ref="216873458" role="outer"/>
+  <member type="way" ref="216873444" role="outer"/>
+  <member type="way" ref="216873432" role="outer"/>
+  <member type="way" ref="216873447" role="outer"/>
+  <member type="way" ref="216873452" role="outer"/>
+  <member type="way" ref="216873443" role="outer"/>
+  <member type="way" ref="216873459" role="outer"/>
+  <member type="way" ref="216873453" role="outer"/>
+  <member type="way" ref="216873431" role="outer"/>
+  <member type="way" ref="216873434" role="outer"/>
+  <member type="way" ref="216873422" role="outer"/>
+  <member type="way" ref="216873426" role="outer"/>
+  <member type="way" ref="216873419" role="outer"/>
+  <member type="way" ref="216873427" role="outer"/>
+  <member type="way" ref="32322818" role="outer"/>
+  <member type="way" ref="216873424" role="outer"/>
+  <member type="way" ref="216669144" role="outer"/>
+  <member type="way" ref="203909902" role="outer"/>
+  <member type="way" ref="216669140" role="outer"/>
+  <member type="way" ref="128752716" role="outer"/>
+  <member type="way" ref="216669142" role="outer"/>
+  <member type="way" ref="128774516" role="outer"/>
+  <member type="way" ref="216669143" role="outer"/>
+  <member type="way" ref="216669135" role="outer"/>
+  <member type="way" ref="216669141" role="outer"/>
+  <member type="way" ref="42373564" role="outer"/>
+  <member type="way" ref="128752717" role="outer"/>
+  <member type="way" ref="216525858" role="outer"/>
+  <member type="way" ref="167669363" role="outer"/>
+  <member type="way" ref="128774517" role="outer"/>
+  <member type="way" ref="128752714" role="outer"/>
+  <member type="way" ref="128823051" role="outer"/>
+  <member type="way" ref="128752713" role="outer"/>
+  <member type="way" ref="30567896" role="outer"/>
+  <member type="way" ref="128883453" role="outer"/>
+  <member type="way" ref="128883450" role="outer"/>
+  <member type="way" ref="128752823" role="outer"/>
+  <member type="way" ref="128883458" role="outer"/>
+  <member type="way" ref="128752829" role="outer"/>
+  <member type="way" ref="128752815" role="outer"/>
+  <member type="way" ref="30567870" role="outer"/>
+  <member type="way" ref="30567396" role="outer"/>
+  <member type="way" ref="183198569" role="outer"/>
+  <member type="way" ref="130086747" role="outer"/>
+  <member type="way" ref="128752765" role="outer"/>
+  <member type="way" ref="31972978" role="outer"/>
+  <member type="way" ref="30565628" role="outer"/>
+  <member type="way" ref="129321609" role="outer"/>
+  <member type="way" ref="128752722" role="outer"/>
+  <member type="way" ref="129321608" role="outer"/>
+  <member type="way" ref="183540459" role="outer"/>
+  <member type="way" ref="128752730" role="outer"/>
+  <member type="way" ref="176803090" role="outer"/>
+  <member type="node" ref="27121360" role="admin_centre"/>
+  <member type="node" ref="683681620" role="label"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/d3/Flag_of_Poltava_Oblast.svg"/>
+  <tag k="iso3166-2" v="UA-53"/>
+  <tag k="koatuu" v="5300000000"/>
+  <tag k="name" v="Полтавська область"/>
+  <tag k="name:ar" v="بولتافا أوبلاست"/>
+  <tag k="name:az" v="Poltava vilayəti"/>
+  <tag k="name:be" v="Палтаўская вобласць"/>
+  <tag k="name:be-x-old" v="Палтаўская вобласьць"/>
+  <tag k="name:bg" v="Полтавска област"/>
+  <tag k="name:ca" v="Província de Poltava"/>
+  <tag k="name:crh" v="Poltava vilâyeti"/>
+  <tag k="name:cs" v="Poltavská oblast"/>
+  <tag k="name:cv" v="Полтава облаçĕ"/>
+  <tag k="name:de" v="Oblast Poltawa"/>
+  <tag k="name:en" v="Poltava Oblast"/>
+  <tag k="name:eo" v="Poltava provinco"/>
+  <tag k="name:es" v="Óblast de Poltava"/>
+  <tag k="name:et" v="Poltava oblast"/>
+  <tag k="name:eu" v="Poltavako oblasta"/>
+  <tag k="name:fa" v="استان پولتاوا"/>
+  <tag k="name:fi" v="Pultavan alue"/>
+  <tag k="name:fr" v="Oblast de Poltava"/>
+  <tag k="name:gl" v="Oblast de Poltava"/>
+  <tag k="name:hr" v="Poltavska oblast"/>
+  <tag k="name:hu" v="Poltavai terület"/>
+  <tag k="name:hy" v="Պոլտավայի մարզ"/>
+  <tag k="name:id" v="Oblast Poltava"/>
+  <tag k="name:it" v="Oblast' di Poltava"/>
+  <tag k="name:ja" v="ポルタヴァ州"/>
+  <tag k="name:ka" v="პოლტავის ოლქი"/>
+  <tag k="name:ko" v="폴타바 주"/>
+  <tag k="name:lt" v="Poltavos sritis"/>
+  <tag k="name:lv" v="Poltavas apgabals"/>
+  <tag k="name:mk" v="Полтавска област"/>
+  <tag k="name:mr" v="पोल्ताव्हा ओब्लास्त"/>
+  <tag k="name:nl" v="Oblast Poltava"/>
+  <tag k="name:nn" v="Poltava oblast"/>
+  <tag k="name:no" v="Poltava oblast"/>
+  <tag k="name:pl" v="Obwód połtawski"/>
+  <tag k="name:pnb" v="پولتاوا اوبلاست"/>
+  <tag k="name:pt" v="Oblast de Poltava"/>
+  <tag k="name:ro" v="Regiunea Poltava"/>
+  <tag k="name:ru" v="Полтавская область"/>
+  <tag k="name:rue" v="Полтавска область"/>
+  <tag k="name:sco" v="Poltava Oblast"/>
+  <tag k="name:sh" v="Poltavska oblast"/>
+  <tag k="name:sk" v="Poltavská oblasť"/>
+  <tag k="name:sr" v="Полтавска област"/>
+  <tag k="name:sv" v="Poltava oblast"/>
+  <tag k="name:tr" v="Poltava Oblastı"/>
+  <tag k="name:uk" v="Полтавська область"/>
+  <tag k="name:vi" v="Poltava (tỉnh)"/>
+  <tag k="name:war" v="Poltava Oblast"/>
+  <tag k="name:xmf" v="პოლტავაშ ოლქი"/>
+  <tag k="name:zh" v="波尔塔瓦州"/>
+  <tag k="name:zh-min-nan" v="Poltava séng"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikipedia" v="uk:Полтавська_область"/>
+ </relation>
+</osm>

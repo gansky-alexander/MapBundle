@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.1 (10758 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="71236" visible="true" version="79" changeset="18156027" timestamp="2013-10-03T07:27:46Z" user="Sanjak" uid="236651">
+  <member type="way" ref="29079643" role="outer"/>
+  <member type="way" ref="128982543" role="outer"/>
+  <member type="way" ref="237681740" role="outer"/>
+  <member type="way" ref="237681736" role="outer"/>
+  <member type="way" ref="128982563" role="outer"/>
+  <member type="way" ref="29079662" role="outer"/>
+  <member type="way" ref="237681741" role="outer"/>
+  <member type="way" ref="237681735" role="outer"/>
+  <member type="way" ref="237681739" role="outer"/>
+  <member type="way" ref="237681738" role="outer"/>
+  <member type="way" ref="237681737" role="outer"/>
+  <member type="way" ref="30544780" role="outer"/>
+  <member type="way" ref="128982605" role="outer"/>
+  <member type="way" ref="128971575" role="outer"/>
+  <member type="way" ref="128982551" role="outer"/>
+  <member type="way" ref="208371940" role="outer"/>
+  <member type="way" ref="210365479" role="outer"/>
+  <member type="way" ref="208673105" role="outer"/>
+  <member type="way" ref="210365478" role="outer"/>
+  <member type="way" ref="208371939" role="outer"/>
+  <member type="way" ref="208673106" role="outer"/>
+  <member type="way" ref="128971590" role="outer"/>
+  <member type="way" ref="128982593" role="outer"/>
+  <member type="way" ref="128982598" role="outer"/>
+  <member type="way" ref="128971579" role="outer"/>
+  <member type="way" ref="199955961" role="outer"/>
+  <member type="way" ref="199955947" role="outer"/>
+  <member type="way" ref="128982537" role="outer"/>
+  <member type="way" ref="240236909" role="outer"/>
+  <member type="way" ref="240236899" role="outer"/>
+  <member type="way" ref="128971580" role="outer"/>
+  <member type="way" ref="240243350" role="outer"/>
+  <member type="way" ref="240243356" role="outer"/>
+  <member type="way" ref="240243351" role="outer"/>
+  <member type="way" ref="240243352" role="outer"/>
+  <member type="way" ref="240243349" role="outer"/>
+  <member type="way" ref="240344207" role="outer"/>
+  <member type="way" ref="240344209" role="outer"/>
+  <member type="way" ref="199901417" role="outer"/>
+  <member type="way" ref="240195713" role="outer"/>
+  <member type="way" ref="199901391" role="outer"/>
+  <member type="way" ref="199901370" role="outer"/>
+  <member type="way" ref="240136449" role="outer"/>
+  <member type="way" ref="240136445" role="outer"/>
+  <member type="way" ref="240290194" role="outer"/>
+  <member type="way" ref="240290206" role="outer"/>
+  <member type="way" ref="199887679" role="outer"/>
+  <member type="way" ref="240290202" role="outer"/>
+  <member type="way" ref="199887683" role="outer"/>
+  <member type="way" ref="240290204" role="outer"/>
+  <member type="way" ref="30545113" role="outer"/>
+  <member type="way" ref="240290219" role="outer"/>
+  <member type="way" ref="240290211" role="outer"/>
+  <member type="way" ref="240292544" role="outer"/>
+  <member type="way" ref="240292541" role="outer"/>
+  <member type="way" ref="240292539" role="outer"/>
+  <member type="way" ref="240292540" role="outer"/>
+  <member type="way" ref="30688922" role="outer"/>
+  <member type="way" ref="30545019" role="outer"/>
+  <member type="way" ref="154523595" role="outer"/>
+  <member type="way" ref="128871873" role="outer"/>
+  <member type="way" ref="128982545" role="outer"/>
+  <member type="way" ref="128982568" role="outer"/>
+  <member type="way" ref="30545234" role="outer"/>
+  <member type="way" ref="128877126" role="outer"/>
+  <member type="way" ref="115602857" role="outer"/>
+  <member type="way" ref="166607482" role="outer"/>
+  <member type="way" ref="128877135" role="outer"/>
+  <member type="way" ref="128877131" role="outer"/>
+  <member type="way" ref="128982594" role="outer"/>
+  <member type="way" ref="128982601" role="outer"/>
+  <member type="way" ref="31972610" role="outer"/>
+  <member type="way" ref="128982531" role="outer"/>
+  <member type="way" ref="128982533" role="outer"/>
+  <member type="way" ref="129274436" role="outer"/>
+  <member type="way" ref="30597311" role="outer"/>
+  <member type="node" ref="146541158" role="admin_centre"/>
+  <tag k="addr:country" v="UA"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/3/3c/Flag_of_Rivne_Oblast.svg"/>
+  <tag k="is_in:country" v="Ukraine"/>
+  <tag k="iso3166-2" v="UA-56"/>
+  <tag k="koatuu" v="5600000000"/>
+  <tag k="name" v="Рівненська область"/>
+  <tag k="name:ar" v="ريفنا أوبلاست"/>
+  <tag k="name:be" v="Ровенская вобласць"/>
+  <tag k="name:be-x-old" v="Ровенская вобласьць"/>
+  <tag k="name:bg" v="Ровненска област"/>
+  <tag k="name:ca" v="Província de Rivne"/>
+  <tag k="name:crh" v="Rivne vilâyeti"/>
+  <tag k="name:cs" v="Rovenská oblast"/>
+  <tag k="name:de" v="Oblast Riwne"/>
+  <tag k="name:en" v="Rivne Oblast"/>
+  <tag k="name:eo" v="Rivna provinco"/>
+  <tag k="name:es" v="Óblast de Rivne"/>
+  <tag k="name:et" v="Rivne oblast"/>
+  <tag k="name:eu" v="Rivneko oblasta"/>
+  <tag k="name:fa" v="استان ریونه"/>
+  <tag k="name:fi" v="Rivnen alue"/>
+  <tag k="name:fr" v="Oblast de Rivne"/>
+  <tag k="name:hr" v="Rivnenska oblast"/>
+  <tag k="name:hy" v="Ռովնոյի մարզ"/>
+  <tag k="name:id" v="Oblast Rivne"/>
+  <tag k="name:it" v="Oblast' di Rivne"/>
+  <tag k="name:ja" v="リウネ州"/>
+  <tag k="name:ka" v="როვნოს ოლქი"/>
+  <tag k="name:ko" v="리우네 주"/>
+  <tag k="name:lt" v="Rivnės sritis"/>
+  <tag k="name:lv" v="Rivnes apgabals"/>
+  <tag k="name:mk" v="Ровненска област"/>
+  <tag k="name:mr" v="रिव्ह्ने ओब्लास्त"/>
+  <tag k="name:ms" v="Oblast Rivne"/>
+  <tag k="name:nl" v="Oblast Rivne"/>
+  <tag k="name:nn" v="Rivne oblast"/>
+  <tag k="name:no" v="Rivne oblast"/>
+  <tag k="name:pl" v="Obwód rówieński"/>
+  <tag k="name:pnb" v="ریون اوبلاست"/>
+  <tag k="name:pt" v="Oblast de Rivne"/>
+  <tag k="name:ro" v="Regiunea Rivne"/>
+  <tag k="name:ru" v="Ровненская область"/>
+  <tag k="name:rue" v="Рівненьска область"/>
+  <tag k="name:sco" v="Rivne Oblast"/>
+  <tag k="name:sh" v="Rivnenska oblast"/>
+  <tag k="name:sk" v="Rivnenská oblasť"/>
+  <tag k="name:sr" v="Ривањска област"/>
+  <tag k="name:sv" v="Rivne oblast"/>
+  <tag k="name:tr" v="Rivne Oblastı"/>
+  <tag k="name:uk" v="Рівненська область"/>
+  <tag k="name:vi" v="Rivne (tỉnh)"/>
+  <tag k="name:war" v="Rivne Oblast"/>
+  <tag k="name:zh" v="羅夫諾州"/>
+  <tag k="name:zh-min-nan" v="Rivne séng"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikipedia" v="uk:Рівненська_область"/>
+ </relation>
+</osm>

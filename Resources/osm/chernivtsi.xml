@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.1 (10772 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="72526" visible="true" version="68" changeset="17313960" timestamp="2013-08-12T08:47:41Z" user="Zcor" uid="704753">
+  <member type="way" ref="194541615" role="outer"/>
+  <member type="way" ref="194641708" role="outer"/>
+  <member type="way" ref="128978198" role="outer"/>
+  <member type="way" ref="194641715" role="outer"/>
+  <member type="way" ref="194641707" role="outer"/>
+  <member type="way" ref="194641702" role="outer"/>
+  <member type="way" ref="128978168" role="outer"/>
+  <member type="way" ref="129067370" role="outer"/>
+  <member type="way" ref="128978166" role="outer"/>
+  <member type="way" ref="129067374" role="outer"/>
+  <member type="way" ref="128978169" role="outer"/>
+  <member type="way" ref="202866489" role="outer"/>
+  <member type="way" ref="30547256" role="outer"/>
+  <member type="way" ref="30691466" role="outer"/>
+  <member type="way" ref="22113190" role="outer"/>
+  <member type="way" ref="128978155" role="outer"/>
+  <member type="way" ref="157868145" role="outer"/>
+  <member type="way" ref="233208099" role="outer"/>
+  <member type="way" ref="233208098" role="outer"/>
+  <member type="way" ref="227776906" role="outer"/>
+  <member type="way" ref="128978157" role="outer"/>
+  <member type="way" ref="154475265" role="outer"/>
+  <member type="way" ref="128995657" role="outer"/>
+  <member type="way" ref="22131859" role="outer"/>
+  <member type="way" ref="233208097" role="outer"/>
+  <member type="way" ref="227776896" role="outer"/>
+  <member type="way" ref="24721707" role="outer"/>
+  <member type="way" ref="24818296" role="outer"/>
+  <member type="way" ref="52348775" role="outer"/>
+  <member type="way" ref="128978188" role="outer"/>
+  <member type="way" ref="52564613" role="outer"/>
+  <member type="way" ref="52565204" role="outer"/>
+  <member type="way" ref="52956909" role="outer"/>
+  <member type="way" ref="52822516" role="outer"/>
+  <member type="way" ref="233209999" role="outer"/>
+  <member type="way" ref="52822517" role="outer"/>
+  <member type="way" ref="233209997" role="outer"/>
+  <member type="way" ref="52956947" role="outer"/>
+  <member type="way" ref="52533239" role="outer"/>
+  <member type="way" ref="52533228" role="outer"/>
+  <member type="way" ref="128978196" role="outer"/>
+  <member type="way" ref="29071963" role="outer"/>
+  <member type="way" ref="233209998" role="outer"/>
+  <member type="way" ref="233214286" role="outer"/>
+  <member type="way" ref="129567726" role="outer"/>
+  <member type="way" ref="194541613" role="outer"/>
+  <member type="way" ref="194541614" role="outer"/>
+  <member type="node" ref="428339505" role="admin_centre"/>
+  <member type="relation" ref="1740865" role="subarea"/>
+  <member type="relation" ref="1740866" role="subarea"/>
+  <member type="relation" ref="1740867" role="subarea"/>
+  <member type="relation" ref="1740868" role="subarea"/>
+  <member type="relation" ref="1740870" role="subarea"/>
+  <member type="relation" ref="1740871" role="subarea"/>
+  <member type="relation" ref="1740872" role="subarea"/>
+  <member type="relation" ref="1740873" role="subarea"/>
+  <member type="relation" ref="1740874" role="subarea"/>
+  <member type="relation" ref="1740875" role="subarea"/>
+  <member type="relation" ref="1742393" role="subarea"/>
+  <member type="relation" ref="1742394" role="subarea"/>
+  <member type="relation" ref="1742395" role="subarea"/>
+  <member type="relation" ref="1742396" role="subarea"/>
+  <member type="node" ref="683681609" role="label"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="iso3166-2" v="UA-77"/>
+  <tag k="koatuu" v="7300000000"/>
+  <tag k="name" v="Чернівецька область"/>
+  <tag k="name:ar" v="تشيرنيفتسي أوبلاست"/>
+  <tag k="name:be" v="Чарнавіцкая вобласць"/>
+  <tag k="name:be-x-old" v="Чарнавіцкая вобласьць"/>
+  <tag k="name:bg" v="Черновицка област"/>
+  <tag k="name:ca" v="Província de Txernivtsí"/>
+  <tag k="name:crh" v="Çernivtsi vilâyeti"/>
+  <tag k="name:cs" v="Černovická oblast"/>
+  <tag k="name:de" v="Oblast Tscherniwzi"/>
+  <tag k="name:en" v="Chernivtsi Oblast"/>
+  <tag k="name:eo" v="Ĉernivca provinco"/>
+  <tag k="name:es" v="Óblast de Chernivtsi"/>
+  <tag k="name:et" v="Tšernivtsi oblast"/>
+  <tag k="name:eu" v="Txernivtsiko oblasta"/>
+  <tag k="name:fa" v="استان چرنیوتسی"/>
+  <tag k="name:fi" v="Tšernivtsin alue"/>
+  <tag k="name:fr" v="Oblast de Tchernivtsi"/>
+  <tag k="name:hr" v="Černivecka oblast"/>
+  <tag k="name:hu" v="Csernyivci terület"/>
+  <tag k="name:hy" v="Չեռնովցիի մարզ"/>
+  <tag k="name:id" v="Oblast Chernivtsi"/>
+  <tag k="name:it" v="Oblast' di Černivci"/>
+  <tag k="name:ja" v="チェルニウツィー州"/>
+  <tag k="name:ka" v="ჩერნოვცის ოლქი"/>
+  <tag k="name:ko" v="체르니우치 주"/>
+  <tag k="name:lt" v="Černivcių sritis"/>
+  <tag k="name:lv" v="Černivcu apgabals"/>
+  <tag k="name:mk" v="Черновечка област"/>
+  <tag k="name:mr" v="चेर्निव्हत्सी ओब्लास्त"/>
+  <tag k="name:ms" v="Oblast Chernivtsi"/>
+  <tag k="name:nl" v="Oblast Tsjernivtsi"/>
+  <tag k="name:nn" v="Tsjernivtsi oblast"/>
+  <tag k="name:no" v="Tsjernivtsi oblast"/>
+  <tag k="name:os" v="Черновцыйы облæст"/>
+  <tag k="name:pl" v="Obwód czerniowiecki"/>
+  <tag k="name:pnb" v="چرنیوتسی اوبلاست"/>
+  <tag k="name:pt" v="Oblast de Chernivtsi"/>
+  <tag k="name:ro" v="Regiunea Cernăuți"/>
+  <tag k="name:ru" v="Черновицкая область"/>
+  <tag k="name:rue" v="Чернівецька область"/>
+  <tag k="name:sco" v="Chernivtsi Oblast"/>
+  <tag k="name:sh" v="Černivecka oblast"/>
+  <tag k="name:sk" v="Černovická oblasť"/>
+  <tag k="name:sr" v="Чернивачка област"/>
+  <tag k="name:sv" v="Tjernivtsi oblast"/>
+  <tag k="name:szl" v="Czerńowjecki uobwůd"/>
+  <tag k="name:tr" v="Çernovtsi Oblastı"/>
+  <tag k="name:uk" v="Чернівецька область"/>
+  <tag k="name:vi" v="Chernivtsi (tỉnh)"/>
+  <tag k="name:war" v="Chernivtsi Oblast"/>
+  <tag k="name:zh" v="切爾諾夫策州"/>
+  <tag k="name:zh-min-nan" v="Chernivci séng"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikipedia" v="uk:Чернівецька_область"/>
+ </relation>
+</osm>

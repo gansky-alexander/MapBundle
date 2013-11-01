@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.1 (10759 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="72380" visible="true" version="97" changeset="18147853" timestamp="2013-10-02T17:25:30Z" user="Sanjak" uid="236651">
+  <member type="way" ref="129370973" role="outer"/>
+  <member type="way" ref="188180120" role="outer"/>
+  <member type="way" ref="129370036" role="outer"/>
+  <member type="way" ref="227963510" role="outer"/>
+  <member type="way" ref="188179686" role="outer"/>
+  <member type="way" ref="188179241" role="outer"/>
+  <member type="way" ref="129367478" role="outer"/>
+  <member type="way" ref="129583255" role="outer"/>
+  <member type="way" ref="129367490" role="outer"/>
+  <member type="way" ref="129367517" role="outer"/>
+  <member type="way" ref="129369266" role="outer"/>
+  <member type="way" ref="188470494" role="outer"/>
+  <member type="way" ref="227776902" role="outer"/>
+  <member type="way" ref="188470090" role="outer"/>
+  <member type="way" ref="39931607" role="outer"/>
+  <member type="way" ref="188470091" role="outer"/>
+  <member type="way" ref="34173037" role="outer"/>
+  <member type="way" ref="129583261" role="outer"/>
+  <member type="way" ref="129369265" role="outer"/>
+  <member type="way" ref="227776905" role="outer"/>
+  <member type="way" ref="227776903" role="outer"/>
+  <member type="way" ref="227776904" role="outer"/>
+  <member type="way" ref="200253986" role="outer"/>
+  <member type="way" ref="158854657" role="outer"/>
+  <member type="way" ref="158854658" role="outer"/>
+  <member type="way" ref="185465106" role="outer"/>
+  <member type="way" ref="199817064" role="outer"/>
+  <member type="way" ref="128971583" role="outer"/>
+  <member type="way" ref="189039145" role="outer"/>
+  <member type="way" ref="129583256" role="outer"/>
+  <member type="way" ref="189040385" role="outer"/>
+  <member type="way" ref="170608815" role="outer"/>
+  <member type="way" ref="170608804" role="outer"/>
+  <member type="way" ref="170608819" role="outer"/>
+  <member type="way" ref="170608790" role="outer"/>
+  <member type="way" ref="203159354" role="outer"/>
+  <member type="way" ref="203159355" role="outer"/>
+  <member type="way" ref="203159351" role="outer"/>
+  <member type="way" ref="203159353" role="outer"/>
+  <member type="way" ref="199901358" role="outer"/>
+  <member type="way" ref="129609642" role="outer"/>
+  <member type="way" ref="240136442" role="outer"/>
+  <member type="way" ref="240136432" role="outer"/>
+  <member type="way" ref="240290219" role="outer"/>
+  <member type="way" ref="240290211" role="outer"/>
+  <member type="way" ref="240292544" role="outer"/>
+  <member type="way" ref="240292541" role="outer"/>
+  <member type="way" ref="240292539" role="outer"/>
+  <member type="way" ref="240292540" role="outer"/>
+  <member type="way" ref="30688922" role="outer"/>
+  <member type="way" ref="30547123" role="outer"/>
+  <member type="way" ref="172909956" role="outer"/>
+  <member type="way" ref="128871865" role="outer"/>
+  <member type="way" ref="172696015" role="outer"/>
+  <member type="way" ref="129609635" role="outer"/>
+  <member type="way" ref="30543356" role="outer"/>
+  <member type="way" ref="210557302" role="outer"/>
+  <member type="way" ref="129609596" role="outer"/>
+  <member type="way" ref="188450708" role="outer"/>
+  <member type="way" ref="188450713" role="outer"/>
+  <member type="way" ref="129067422" role="outer"/>
+  <member type="way" ref="129067405" role="outer"/>
+  <member type="way" ref="129609586" role="outer"/>
+  <member type="way" ref="210055755" role="outer"/>
+  <member type="way" ref="188447889" role="outer"/>
+  <member type="way" ref="188447892" role="outer"/>
+  <member type="way" ref="188447891" role="outer"/>
+  <member type="way" ref="205262026" role="outer"/>
+  <member type="way" ref="197928974" role="outer"/>
+  <member type="way" ref="188444870" role="outer"/>
+  <member type="way" ref="210623276" role="outer"/>
+  <member type="way" ref="197928979" role="outer"/>
+  <member type="way" ref="210622848" role="outer"/>
+  <member type="way" ref="210621794" role="outer"/>
+  <member type="way" ref="202866495" role="outer"/>
+  <member type="way" ref="210616495" role="outer"/>
+  <member type="way" ref="210611425" role="outer"/>
+  <member type="way" ref="30693260" role="outer"/>
+  <member type="way" ref="210610483" role="outer"/>
+  <member type="way" ref="210607845" role="outer"/>
+  <member type="way" ref="128853251" role="outer"/>
+  <member type="way" ref="199170198" role="outer"/>
+  <member type="way" ref="129583275" role="outer"/>
+  <member type="way" ref="199172905" role="outer"/>
+  <member type="way" ref="199176911" role="outer"/>
+  <member type="way" ref="204991164" role="outer"/>
+  <member type="way" ref="199179115" role="outer"/>
+  <member type="way" ref="204991165" role="outer"/>
+  <member type="way" ref="199168006" role="outer"/>
+  <member type="way" ref="30543445" role="outer"/>
+  <member type="way" ref="128239332" role="outer"/>
+  <member type="way" ref="191976716" role="outer"/>
+  <member type="way" ref="191976720" role="outer"/>
+  <member type="way" ref="191977991" role="outer"/>
+  <member type="way" ref="191979070" role="outer"/>
+  <member type="way" ref="191973639" role="outer"/>
+  <member type="way" ref="129478318" role="outer"/>
+  <member type="way" ref="129583265" role="outer"/>
+  <member type="way" ref="129477554" role="outer"/>
+  <member type="way" ref="199148812" role="outer"/>
+  <member type="way" ref="192466169" role="outer"/>
+  <member type="way" ref="192466168" role="outer"/>
+  <member type="way" ref="192466674" role="outer"/>
+  <member type="way" ref="210561739" role="outer"/>
+  <member type="way" ref="210559653" role="outer"/>
+  <member type="way" ref="210560907" role="outer"/>
+  <member type="way" ref="129477541" role="outer"/>
+  <member type="way" ref="191391689" role="outer"/>
+  <member type="way" ref="228776103" role="outer"/>
+  <member type="way" ref="191391342" role="outer"/>
+  <member type="way" ref="235855090" role="outer"/>
+  <member type="way" ref="191389847" role="outer"/>
+  <member type="node" ref="26150791" role="admin_centre"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="iso3166-2" v="UA-46"/>
+  <tag k="koatuu" v="4600000000"/>
+  <tag k="name" v="Львівська область"/>
+  <tag k="name:ar" v="لفيف أوبلاست"/>
+  <tag k="name:az" v="Lvov vilayəti"/>
+  <tag k="name:be" v="Львоўская вобласць"/>
+  <tag k="name:be-x-old" v="Львоўская вобласьць"/>
+  <tag k="name:bg" v="Лвовска област"/>
+  <tag k="name:ca" v="Província de Lviv"/>
+  <tag k="name:crh" v="İlbav vilâyeti"/>
+  <tag k="name:cs" v="Lvovská oblast"/>
+  <tag k="name:cv" v="Львов облаçĕ"/>
+  <tag k="name:de" v="Oblast Lwiw"/>
+  <tag k="name:en" v="Lviv Oblast"/>
+  <tag k="name:eo" v="Lviva provinco"/>
+  <tag k="name:es" v="Óblast de Leópolis"/>
+  <tag k="name:et" v="Lvivi oblast"/>
+  <tag k="name:eu" v="Lviveko oblasta"/>
+  <tag k="name:fa" v="استان لووف"/>
+  <tag k="name:fi" v="Lvivin alue"/>
+  <tag k="name:fr" v="Oblast de Lviv"/>
+  <tag k="name:he" v="מחוז לבוב"/>
+  <tag k="name:hr" v="Ljvivska oblast"/>
+  <tag k="name:hu" v="Lvivi terület"/>
+  <tag k="name:hy" v="Լվովի մարզ"/>
+  <tag k="name:id" v="Oblast Lviv"/>
+  <tag k="name:it" v="Oblast' di Leopoli"/>
+  <tag k="name:ja" v="リヴィウ州"/>
+  <tag k="name:ka" v="ლვოვის ოლქი"/>
+  <tag k="name:ko" v="리비우 주"/>
+  <tag k="name:lt" v="Lvovo sritis"/>
+  <tag k="name:lv" v="Ļvovas apgabals"/>
+  <tag k="name:mk" v="Лавовска област"/>
+  <tag k="name:mr" v="लिव्हिव ओब्लास्त"/>
+  <tag k="name:ms" v="Oblast Lviv"/>
+  <tag k="name:nl" v="Oblast Lviv"/>
+  <tag k="name:nn" v="Lviv oblast"/>
+  <tag k="name:no" v="Lviv oblast"/>
+  <tag k="name:os" v="Львовы облæст"/>
+  <tag k="name:pl" v="Obwód lwowski"/>
+  <tag k="name:pnb" v="لویو اوبلاست"/>
+  <tag k="name:pt" v="Oblast de Lviv"/>
+  <tag k="name:ro" v="Regiunea Liov"/>
+  <tag k="name:ru" v="Львовская область"/>
+  <tag k="name:rue" v="Львівска область"/>
+  <tag k="name:sco" v="Lviv Oblast"/>
+  <tag k="name:sh" v="Lavovska oblast"/>
+  <tag k="name:sk" v="Ľvovská oblasť"/>
+  <tag k="name:sr" v="Лавовска област"/>
+  <tag k="name:sv" v="Lviv oblast"/>
+  <tag k="name:szl" v="Lwowski uobwůd"/>
+  <tag k="name:tr" v="Lviv Oblastı"/>
+  <tag k="name:uk" v="Львівська область"/>
+  <tag k="name:vi" v="Lviv (tỉnh)"/>
+  <tag k="name:war" v="Lviv Oblast"/>
+  <tag k="name:zh" v="利沃夫州"/>
+  <tag k="name:zh-min-nan" v="Lviv séng"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikipedia" v="uk:Львівська_область"/>
+ </relation>
+</osm>

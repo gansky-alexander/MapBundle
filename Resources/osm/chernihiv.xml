@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.1 (24925 thorn-01.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="71249" visible="true" version="102" changeset="18018548" timestamp="2013-09-24T23:03:03Z" user="Zcor" uid="704753">
+  <member type="way" ref="183198566" role="outer"/>
+  <member type="way" ref="183198561" role="outer"/>
+  <member type="way" ref="130086692" role="outer"/>
+  <member type="way" ref="183198570" role="outer"/>
+  <member type="way" ref="183198572" role="outer"/>
+  <member type="way" ref="130086632" role="outer"/>
+  <member type="way" ref="209397253" role="outer"/>
+  <member type="way" ref="129321650" role="outer"/>
+  <member type="way" ref="129321615" role="outer"/>
+  <member type="way" ref="130086762" role="outer"/>
+  <member type="way" ref="30567236" role="outer"/>
+  <member type="way" ref="30597613" role="outer"/>
+  <member type="way" ref="131650382" role="outer"/>
+  <member type="way" ref="131650383" role="outer"/>
+  <member type="way" ref="237691326" role="outer"/>
+  <member type="way" ref="237734082" role="outer"/>
+  <member type="way" ref="134861215" role="outer"/>
+  <member type="way" ref="183198564" role="outer"/>
+  <member type="way" ref="82691329" role="outer"/>
+  <member type="way" ref="130077773" role="outer"/>
+  <member type="way" ref="193438534" role="outer"/>
+  <member type="way" ref="237691322" role="outer"/>
+  <member type="way" ref="82740454" role="outer"/>
+  <member type="way" ref="84334437" role="outer"/>
+  <member type="way" ref="84305454" role="outer"/>
+  <member type="way" ref="84305407" role="outer"/>
+  <member type="way" ref="84305412" role="outer"/>
+  <member type="way" ref="84334327" role="outer"/>
+  <member type="way" ref="130077760" role="outer"/>
+  <member type="way" ref="183198557" role="outer"/>
+  <member type="way" ref="84334396" role="outer"/>
+  <member type="way" ref="130077767" role="outer"/>
+  <member type="way" ref="237691323" role="outer"/>
+  <member type="way" ref="84334320" role="outer"/>
+  <member type="way" ref="84305453" role="outer"/>
+  <member type="way" ref="84334315" role="outer"/>
+  <member type="way" ref="84334462" role="outer"/>
+  <member type="way" ref="84341506" role="outer"/>
+  <member type="way" ref="84341499" role="outer"/>
+  <member type="way" ref="130077766" role="outer"/>
+  <member type="way" ref="30563037" role="outer"/>
+  <member type="way" ref="29077719" role="outer"/>
+  <member type="way" ref="130077769" role="outer"/>
+  <member type="way" ref="183198568" role="outer"/>
+  <member type="way" ref="29079311" role="outer"/>
+  <member type="way" ref="237691327" role="outer"/>
+  <member type="way" ref="237710005" role="outer"/>
+  <member type="way" ref="237710004" role="outer"/>
+  <member type="way" ref="30497448" role="outer"/>
+  <member type="way" ref="183198563" role="outer"/>
+  <member type="way" ref="239258310" role="outer"/>
+  <member type="way" ref="239258307" role="outer"/>
+  <member type="way" ref="239258312" role="outer"/>
+  <member type="way" ref="183198560" role="outer"/>
+  <member type="way" ref="129253181" role="outer"/>
+  <member type="way" ref="98992866" role="outer"/>
+  <member type="way" ref="183198559" role="outer"/>
+  <member type="way" ref="30567540" role="outer"/>
+  <member type="way" ref="131895724" role="outer"/>
+  <member type="way" ref="30567524" role="outer"/>
+  <member type="way" ref="183198562" role="outer"/>
+  <member type="way" ref="30567385" role="outer"/>
+  <member type="way" ref="30567391" role="outer"/>
+  <member type="way" ref="183198569" role="outer"/>
+  <member type="way" ref="130086747" role="outer"/>
+  <member type="way" ref="128752765" role="outer"/>
+  <member type="way" ref="31972978" role="outer"/>
+  <member type="way" ref="182519273" role="inner"/>
+  <member type="way" ref="182519269" role="inner"/>
+  <member type="way" ref="180099934" role="inner"/>
+  <member type="way" ref="183198565" role="inner"/>
+  <member type="way" ref="180099953" role="inner"/>
+  <member type="way" ref="182519272" role="inner"/>
+  <member type="node" ref="26150436" role="admin_centre"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Chernihiv_Oblast.svg"/>
+  <tag k="iso3166-2" v="UA-74"/>
+  <tag k="koatuu" v="7400000000"/>
+  <tag k="name" v="Чернігівська область"/>
+  <tag k="name:ar" v="تشرنيهيف أوبلاست"/>
+  <tag k="name:be" v="Чарнігаўская вобласць"/>
+  <tag k="name:be-x-old" v="Чарнігаўская вобласьць"/>
+  <tag k="name:bg" v="Черниговска област"/>
+  <tag k="name:ca" v="Província de Txerníhiv"/>
+  <tag k="name:crh" v="Çernigiv vilâyeti"/>
+  <tag k="name:cs" v="Černihovská oblast"/>
+  <tag k="name:de" v="Oblast Tschernihiw"/>
+  <tag k="name:en" v="Chernihiv Oblast"/>
+  <tag k="name:eo" v="Ĉernihiva provinco"/>
+  <tag k="name:es" v="Óblast de Chernihiv"/>
+  <tag k="name:et" v="Tšernigivi oblast"/>
+  <tag k="name:eu" v="Txernihiveko oblasta"/>
+  <tag k="name:fa" v="استان چرنیهیو"/>
+  <tag k="name:fi" v="Tšernihivin alue"/>
+  <tag k="name:fr" v="Oblast de Tchernihiv"/>
+  <tag k="name:he" v="מחוז צ'רניהיב"/>
+  <tag k="name:hr" v="Černigivska oblast"/>
+  <tag k="name:hu" v="Csernyihivi terület"/>
+  <tag k="name:hy" v="Չեռնիգովի մարզ"/>
+  <tag k="name:id" v="Oblast Chernihiv"/>
+  <tag k="name:it" v="Oblast' di Černihiv"/>
+  <tag k="name:ja" v="チェルニーヒウ州"/>
+  <tag k="name:ka" v="ჩერნიგოვის ოლქი"/>
+  <tag k="name:ko" v="체르니히우 주"/>
+  <tag k="name:lt" v="Černigovo sritis"/>
+  <tag k="name:lv" v="Čerņigovas apgabals"/>
+  <tag k="name:mk" v="Черниговска област"/>
+  <tag k="name:mr" v="चेर्निहिव्ह ओब्लास्त"/>
+  <tag k="name:nl" v="Oblast Tsjernihiv"/>
+  <tag k="name:nn" v="Tsjernihiv oblast"/>
+  <tag k="name:no" v="Tsjernihiv oblast"/>
+  <tag k="name:os" v="Черниговы облæст"/>
+  <tag k="name:pl" v="Obwód czernihowski"/>
+  <tag k="name:pnb" v="چرنیہیف اوبلاست"/>
+  <tag k="name:pt" v="Oblast de Chernigov"/>
+  <tag k="name:ro" v="Regiunea Cernigău"/>
+  <tag k="name:ru" v="Черниговская область"/>
+  <tag k="name:rue" v="Чернїгівска область"/>
+  <tag k="name:sco" v="Chernihiv Oblast"/>
+  <tag k="name:sh" v="Černigivska oblast"/>
+  <tag k="name:sk" v="Černihivská oblasť"/>
+  <tag k="name:sv" v="Tjernihiv oblast"/>
+  <tag k="name:szl" v="Czerńihowski uobwůd"/>
+  <tag k="name:tr" v="Çernigov Oblastı"/>
+  <tag k="name:uk" v="Чернігівська область"/>
+  <tag k="name:vi" v="Chernihiv (tỉnh)"/>
+  <tag k="name:war" v="Chernihiv Oblast"/>
+  <tag k="name:xmf" v="ჩერნიგოვიშ ოლქი"/>
+  <tag k="name:zh" v="切爾尼戈夫州"/>
+  <tag k="name:zh-min-nan" v="Chernigiv séng"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikipedia" v="uk:Чернігівська_область"/>
+ </relation>
+</osm>

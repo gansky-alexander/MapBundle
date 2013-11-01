@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.1 (10775 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="72635" visible="true" version="40" changeset="17179958" timestamp="2013-08-01T13:42:22Z" user="Павел Гетманцев" uid="571410">
+  <member type="way" ref="128865655" role="outer"/>
+  <member type="way" ref="232020291" role="outer"/>
+  <member type="way" ref="232021375" role="outer"/>
+  <member type="way" ref="232025412" role="outer"/>
+  <member type="way" ref="128865513" role="outer"/>
+  <member type="way" ref="217176887" role="outer"/>
+  <member type="way" ref="217176886" role="outer"/>
+  <member type="way" ref="130072411" role="outer"/>
+  <member type="way" ref="130072410" role="outer"/>
+  <member type="way" ref="128865519" role="outer"/>
+  <member type="way" ref="130072412" role="outer"/>
+  <member type="way" ref="193544309" role="outer"/>
+  <member type="way" ref="30558857" role="outer"/>
+  <member type="way" ref="128774628" role="outer"/>
+  <member type="way" ref="216251614" role="outer"/>
+  <member type="way" ref="30558835" role="outer"/>
+  <member type="way" ref="216251619" role="outer"/>
+  <member type="way" ref="30558906" role="outer"/>
+  <member type="way" ref="128823133" role="outer"/>
+  <member type="way" ref="128865668" role="outer"/>
+  <member type="way" ref="128823066" role="outer"/>
+  <member type="way" ref="128865637" role="outer"/>
+  <member type="way" ref="128865674" role="outer"/>
+  <member type="way" ref="128823113" role="outer"/>
+  <member type="way" ref="128823125" role="outer"/>
+  <member type="way" ref="193438118" role="outer"/>
+  <member type="way" ref="128865641" role="outer"/>
+  <member type="way" ref="128823127" role="outer"/>
+  <member type="way" ref="128823116" role="outer"/>
+  <member type="way" ref="128865661" role="outer"/>
+  <member type="way" ref="128823115" role="outer"/>
+  <member type="way" ref="30558928" role="outer"/>
+  <member type="way" ref="130190050" role="outer"/>
+  <member type="way" ref="128865657" role="outer"/>
+  <member type="way" ref="130190047" role="outer"/>
+  <member type="way" ref="128865647" role="outer"/>
+  <member type="way" ref="193782462" role="outer"/>
+  <member type="way" ref="128865652" role="outer"/>
+  <member type="way" ref="128865689" role="outer"/>
+  <member type="way" ref="130190194" role="outer"/>
+  <member type="way" ref="211690101" role="outer"/>
+  <member type="way" ref="128865600" role="outer"/>
+  <member type="way" ref="30560131" role="outer"/>
+  <member type="way" ref="216915205" role="outer"/>
+  <member type="way" ref="130072409" role="outer"/>
+  <member type="node" ref="60410873" role="admin_centre"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/e/e1/Flag_of_Mykolaiv_Oblast.svg"/>
+  <tag k="iso3166-2" v="UA-48"/>
+  <tag k="koatuu" v="4800000000"/>
+  <tag k="name" v="Миколаївська область"/>
+  <tag k="name:ar" v="ميكولايف أوبلاست"/>
+  <tag k="name:be" v="Мікалаеўская вобласць"/>
+  <tag k="name:be-x-old" v="Мікалаеўская вобласьць"/>
+  <tag k="name:bg" v="Николаевска област"/>
+  <tag k="name:ca" v="Província de Mykolàïv"/>
+  <tag k="name:crh" v="Mıkolayiv vilâyeti"/>
+  <tag k="name:cs" v="Mykolajivská oblast"/>
+  <tag k="name:de" v="Oblast Mykolajiw"/>
+  <tag k="name:en" v="Mykolaiv Oblast"/>
+  <tag k="name:eo" v="Mikolajeva provinco"/>
+  <tag k="name:es" v="Óblast de Mykolaiv"/>
+  <tag k="name:et" v="Mõkolajivi oblast"/>
+  <tag k="name:eu" v="Mykolaiveko oblasta"/>
+  <tag k="name:fa" v="استان میکولائیف"/>
+  <tag k="name:fi" v="Mykolajivin alue"/>
+  <tag k="name:fr" v="Oblast de Mykolaïv"/>
+  <tag k="name:hr" v="Mikolajivska oblast"/>
+  <tag k="name:hu" v="Mikolajivi terület"/>
+  <tag k="name:hy" v="Նիկոլաևի մարզ"/>
+  <tag k="name:id" v="Oblast Mykolaiv"/>
+  <tag k="name:it" v="Oblast' di Mykolaïv"/>
+  <tag k="name:ja" v="ムィコラーイウ州"/>
+  <tag k="name:ka" v="ნიკოლაევის ოლქი"/>
+  <tag k="name:ko" v="미콜라이우 주"/>
+  <tag k="name:lt" v="Mykolajivo sritis"/>
+  <tag k="name:lv" v="Nikolajevas apgabals"/>
+  <tag k="name:mk" v="Николаевска област"/>
+  <tag k="name:mr" v="मिकोलाइव्ह ओब्लास्त"/>
+  <tag k="name:nl" v="Oblast Mykolajiv"/>
+  <tag k="name:nn" v="Mykolajiv oblast"/>
+  <tag k="name:no" v="Mykolajiv oblast"/>
+  <tag k="name:pl" v="Obwód mikołajowski"/>
+  <tag k="name:pnb" v="میکولائیف اوبلاست"/>
+  <tag k="name:pt" v="Oblast de Mikolaiv"/>
+  <tag k="name:ro" v="Regiunea Mîkolaiv"/>
+  <tag k="name:ru" v="Николаевская область"/>
+  <tag k="name:rue" v="Миколаївска область"/>
+  <tag k="name:sco" v="Mykolaiv Oblast"/>
+  <tag k="name:sh" v="Mikolajivska oblast"/>
+  <tag k="name:sk" v="Mykolajivská oblasť"/>
+  <tag k="name:sr" v="Миколајивска област"/>
+  <tag k="name:sv" v="Mykolajiv oblast"/>
+  <tag k="name:tr" v="Mıkolayiv Oblastı"/>
+  <tag k="name:uk" v="Миколаївська область"/>
+  <tag k="name:vi" v="Mykolaiv (tỉnh)"/>
+  <tag k="name:war" v="Mykolaiv Oblast"/>
+  <tag k="name:zh" v="尼古拉耶夫州"/>
+  <tag k="name:zh-min-nan" v="Mykolayiv séng"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikipedia" v="uk:Миколаївська_область"/>
+ </relation>
+</osm>

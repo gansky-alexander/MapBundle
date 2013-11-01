@@ -22,10 +22,17 @@ class Point
 
     /**
      *
+     * @ORM\Column(name="bk", type="integer")
+     */
+    private $bk;
+	
+    /**
+     *
      * @ORM\Column(name="latitude", type="float")
      */
     private $latitude;
 
+	
     /**
      *
      * @ORM\Column(name="longitude", type="float")
@@ -131,5 +138,28 @@ class Point
     public function getWaySet()
     {
         return $this->waySet;
+    }
+
+    /**
+     * Set bk
+     *
+     * @param integer $bk
+     * @return Point
+     */
+    public function setBk($bk)
+    {
+        $this->bk = $bk;
+    
+        return $this;
+    }
+
+    /**
+     * Get bk
+     *
+     * @return integer 
+     */
+    public function getBk()
+    {
+        return $this->bk;
     }
 }

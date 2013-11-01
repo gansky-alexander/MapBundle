@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.1 (10750 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="72634" visible="true" version="62" changeset="17873971" timestamp="2013-09-16T19:11:54Z" user="Zcor" uid="704753">
+  <member type="node" ref="26150437" role="admin_centre"/>
+  <member type="way" ref="124975399" role="outer"/>
+  <member type="way" ref="130190057" role="outer"/>
+  <member type="way" ref="238230640" role="outer"/>
+  <member type="way" ref="238230642" role="outer"/>
+  <member type="way" ref="202883153" role="outer"/>
+  <member type="way" ref="238230643" role="outer"/>
+  <member type="way" ref="238230644" role="outer"/>
+  <member type="way" ref="130190208" role="outer"/>
+  <member type="way" ref="28612976" role="outer"/>
+  <member type="way" ref="124975388" role="outer"/>
+  <member type="way" ref="238230641" role="outer"/>
+  <member type="way" ref="130190151" role="outer"/>
+  <member type="way" ref="202883150" role="outer"/>
+  <member type="way" ref="130190158" role="outer"/>
+  <member type="way" ref="124975392" role="outer"/>
+  <member type="way" ref="238230635" role="outer"/>
+  <member type="way" ref="130190114" role="outer"/>
+  <member type="way" ref="202883151" role="outer"/>
+  <member type="way" ref="28612988" role="outer"/>
+  <member type="way" ref="130189962" role="outer"/>
+  <member type="way" ref="28613006" role="outer"/>
+  <member type="way" ref="87504008" role="outer"/>
+  <member type="way" ref="87504042" role="outer"/>
+  <member type="way" ref="87503987" role="outer"/>
+  <member type="way" ref="87503991" role="outer"/>
+  <member type="way" ref="130190147" role="outer"/>
+  <member type="way" ref="237469027" role="outer"/>
+  <member type="way" ref="237469028" role="outer"/>
+  <member type="way" ref="125469515" role="outer"/>
+  <member type="way" ref="81100846" role="outer"/>
+  <member type="way" ref="237332949" role="outer"/>
+  <member type="way" ref="81100849" role="outer"/>
+  <member type="way" ref="237332950" role="outer"/>
+  <member type="way" ref="81100848" role="outer"/>
+  <member type="way" ref="81100851" role="outer"/>
+  <member type="way" ref="181176926" role="outer"/>
+  <member type="way" ref="237332948" role="outer"/>
+  <member type="way" ref="81100847" role="outer"/>
+  <member type="way" ref="130190150" role="outer"/>
+  <member type="way" ref="232746935" role="outer"/>
+  <member type="way" ref="232746936" role="outer"/>
+  <member type="way" ref="181176929" role="outer"/>
+  <member type="way" ref="87498005" role="outer"/>
+  <member type="way" ref="87504006" role="outer"/>
+  <member type="way" ref="28613011" role="outer"/>
+  <member type="way" ref="81100840" role="outer"/>
+  <member type="way" ref="81100842" role="outer"/>
+  <member type="way" ref="51782357" role="outer"/>
+  <member type="way" ref="28920318" role="outer"/>
+  <member type="way" ref="70119957" role="outer"/>
+  <member type="way" ref="70119946" role="outer"/>
+  <member type="way" ref="124698189" role="outer"/>
+  <member type="way" ref="181176912" role="outer"/>
+  <member type="way" ref="124698186" role="outer"/>
+  <member type="way" ref="238000837" role="outer"/>
+  <member type="way" ref="124698190" role="outer"/>
+  <member type="way" ref="124698183" role="outer"/>
+  <member type="way" ref="238230632" role="outer"/>
+  <member type="way" ref="92201755" role="outer"/>
+  <member type="way" ref="92201756" role="outer"/>
+  <member type="way" ref="93448843" role="outer"/>
+  <member type="way" ref="124698184" role="outer"/>
+  <member type="way" ref="53160549" role="outer"/>
+  <member type="way" ref="53160552" role="outer"/>
+  <member type="way" ref="181176889" role="outer"/>
+  <member type="way" ref="69877919" role="outer"/>
+  <member type="way" ref="28596678" role="outer"/>
+  <member type="way" ref="29287542" role="outer"/>
+  <member type="way" ref="238230645" role="outer"/>
+  <member type="way" ref="238000839" role="outer"/>
+  <member type="way" ref="182404698" role="outer"/>
+  <member type="way" ref="130189905" role="outer"/>
+  <member type="way" ref="211689693" role="outer"/>
+  <member type="way" ref="211689695" role="outer"/>
+  <member type="way" ref="130189917" role="outer"/>
+  <member type="way" ref="182404678" role="outer"/>
+  <member type="way" ref="238000838" role="outer"/>
+  <member type="way" ref="88129497" role="outer"/>
+  <member type="way" ref="203099958" role="outer"/>
+  <member type="way" ref="203099959" role="outer"/>
+  <member type="way" ref="42122865" role="outer"/>
+  <member type="way" ref="228651608" role="outer"/>
+  <member type="way" ref="228651609" role="outer"/>
+  <member type="way" ref="42288415" role="outer"/>
+  <member type="way" ref="130190128" role="outer"/>
+  <member type="way" ref="130190132" role="outer"/>
+  <member type="way" ref="130190071" role="outer"/>
+  <member type="way" ref="130194753" role="outer"/>
+  <member type="way" ref="86023670" role="outer"/>
+  <member type="way" ref="211690101" role="outer"/>
+  <member type="way" ref="130190194" role="outer"/>
+  <member type="way" ref="128865689" role="outer"/>
+  <member type="way" ref="128865652" role="outer"/>
+  <member type="way" ref="193782462" role="outer"/>
+  <member type="way" ref="128865647" role="outer"/>
+  <member type="way" ref="130190047" role="outer"/>
+  <member type="way" ref="128865657" role="outer"/>
+  <member type="way" ref="130190050" role="outer"/>
+  <member type="way" ref="30558928" role="outer"/>
+  <member type="way" ref="128823083" role="outer"/>
+  <member type="way" ref="130189975" role="outer"/>
+  <member type="way" ref="30546444" role="outer"/>
+  <member type="way" ref="30546198" role="outer"/>
+  <member type="way" ref="129567814" role="outer"/>
+  <member type="way" ref="130189951" role="outer"/>
+  <member type="way" ref="129567925" role="outer"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="iso3166-2" v="UA-51"/>
+  <tag k="koatuu" v="5100000000"/>
+  <tag k="name" v="Одеська область"/>
+  <tag k="name:ar" v="أوديسا أوبلاست"/>
+  <tag k="name:az" v="Odessa vilayəti"/>
+  <tag k="name:be" v="Адэская вобласць"/>
+  <tag k="name:be-x-old" v="Адэская вобласьць"/>
+  <tag k="name:bg" v="Одеска област"/>
+  <tag k="name:ca" v="Província d'Odessa"/>
+  <tag k="name:crh" v="Ades vilâyeti"/>
+  <tag k="name:cs" v="Oděská oblast"/>
+  <tag k="name:de" v="Oblast Odessa"/>
+  <tag k="name:en" v="Odessa Oblast"/>
+  <tag k="name:eo" v="Odesa provinco"/>
+  <tag k="name:es" v="Óblast de Odesa"/>
+  <tag k="name:et" v="Odessa oblast"/>
+  <tag k="name:eu" v="Odesako oblasta"/>
+  <tag k="name:fa" v="استان اودسا"/>
+  <tag k="name:fi" v="Odessan alue"/>
+  <tag k="name:fr" v="Oblast d'Odessa"/>
+  <tag k="name:hr" v="Odeška oblast"/>
+  <tag k="name:hu" v="Odesszai terület"/>
+  <tag k="name:hy" v="Օդեսայի մարզ"/>
+  <tag k="name:id" v="Oblast Odessa"/>
+  <tag k="name:it" v="Oblast' di Odessa"/>
+  <tag k="name:ja" v="オデッサ州"/>
+  <tag k="name:ka" v="ოდესის ოლქი"/>
+  <tag k="name:ko" v="오데사 주"/>
+  <tag k="name:lt" v="Odesos sritis"/>
+  <tag k="name:lv" v="Odesas apgabals"/>
+  <tag k="name:mk" v="Одеска област"/>
+  <tag k="name:mr" v="ओदेसा ओब्लास्त"/>
+  <tag k="name:nl" v="Oblast Odessa"/>
+  <tag k="name:nn" v="Odessa oblast"/>
+  <tag k="name:no" v="Odessa oblast"/>
+  <tag k="name:os" v="Одессæйы облæст"/>
+  <tag k="name:pl" v="Obwód odeski"/>
+  <tag k="name:pnb" v="اودیسا اوبلاست"/>
+  <tag k="name:pt" v="Oblast de Odesa"/>
+  <tag k="name:ro" v="Regiunea Odesa"/>
+  <tag k="name:ru" v="Одесская область"/>
+  <tag k="name:rue" v="Одеска область"/>
+  <tag k="name:sco" v="Odessa Oblast"/>
+  <tag k="name:sh" v="Odeška oblast"/>
+  <tag k="name:sk" v="Odeská oblasť"/>
+  <tag k="name:sr" v="Одешка област"/>
+  <tag k="name:sv" v="Odessa oblast"/>
+  <tag k="name:tr" v="Odessa Oblastı"/>
+  <tag k="name:uk" v="Одеська область"/>
+  <tag k="name:ur" v="اودیسا اوبلاست"/>
+  <tag k="name:vi" v="Odessa (tỉnh)"/>
+  <tag k="name:war" v="Odessa Oblast"/>
+  <tag k="name:xmf" v="ოდესაშ ოლქი"/>
+  <tag k="name:zh" v="敖德萨州"/>
+  <tag k="name:zh-min-nan" v="Odesa séng"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikipedia" v="uk:Одеська_область"/>
+ </relation>
+</osm>

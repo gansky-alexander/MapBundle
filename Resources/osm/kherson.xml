@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.1 (10762 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="71022" visible="true" version="68" changeset="17179958" timestamp="2013-08-01T13:42:23Z" user="Павел Гетманцев" uid="571410">
+  <member type="way" ref="128865513" role="outer"/>
+  <member type="way" ref="232025412" role="outer"/>
+  <member type="way" ref="232021375" role="outer"/>
+  <member type="way" ref="232020291" role="outer"/>
+  <member type="way" ref="217176887" role="outer"/>
+  <member type="way" ref="217176886" role="outer"/>
+  <member type="way" ref="130072411" role="outer"/>
+  <member type="way" ref="130072410" role="outer"/>
+  <member type="way" ref="128865519" role="outer"/>
+  <member type="way" ref="130072412" role="outer"/>
+  <member type="way" ref="193544309" role="outer"/>
+  <member type="way" ref="30558857" role="outer"/>
+  <member type="way" ref="216251622" role="outer"/>
+  <member type="way" ref="30556427" role="outer"/>
+  <member type="way" ref="216251613" role="outer"/>
+  <member type="way" ref="128774591" role="outer"/>
+  <member type="way" ref="130072460" role="outer"/>
+  <member type="way" ref="214118663" role="outer"/>
+  <member type="way" ref="214112586" role="outer"/>
+  <member type="way" ref="214112576" role="outer"/>
+  <member type="way" ref="214112580" role="outer"/>
+  <member type="way" ref="193878340" role="outer"/>
+  <member type="way" ref="216044704" role="outer"/>
+  <member type="way" ref="128774614" role="outer"/>
+  <member type="way" ref="194798067" role="outer"/>
+  <member type="way" ref="194798066" role="outer"/>
+  <member type="way" ref="194798065" role="outer"/>
+  <member type="way" ref="128774589" role="outer"/>
+  <member type="way" ref="130072444" role="outer"/>
+  <member type="way" ref="128774590" role="outer"/>
+  <member type="way" ref="130072448" role="outer"/>
+  <member type="way" ref="130072428" role="outer"/>
+  <member type="way" ref="216372385" role="outer"/>
+  <member type="way" ref="171255707" role="outer"/>
+  <member type="way" ref="216378510" role="outer"/>
+  <member type="way" ref="128774615" role="outer"/>
+  <member type="way" ref="30555696" role="outer"/>
+  <member type="way" ref="85632383" role="outer"/>
+  <member type="way" ref="30555413" role="outer"/>
+  <member type="way" ref="171255708" role="outer"/>
+  <member type="way" ref="130207721" role="outer"/>
+  <member type="way" ref="130207714" role="outer"/>
+  <member type="way" ref="130072456" role="outer"/>
+  <member type="way" ref="130207737" role="outer"/>
+  <member type="way" ref="130072449" role="outer"/>
+  <member type="way" ref="216249910" role="outer"/>
+  <member type="way" ref="130072455" role="outer"/>
+  <member type="way" ref="216249912" role="outer"/>
+  <member type="way" ref="130207724" role="outer"/>
+  <member type="way" ref="130072435" role="outer"/>
+  <member type="way" ref="130207722" role="outer"/>
+  <member type="way" ref="86023174" role="outer"/>
+  <member type="way" ref="130072462" role="outer"/>
+  <member type="way" ref="128865600" role="outer"/>
+  <member type="way" ref="30560131" role="outer"/>
+  <member type="way" ref="216915205" role="outer"/>
+  <member type="way" ref="130072409" role="outer"/>
+  <member type="way" ref="128865655" role="outer"/>
+  <member type="node" ref="255466573" role="admin_centre"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="iso3166-2" v="UA-65"/>
+  <tag k="koatuu" v="6500000000"/>
+  <tag k="name" v="Херсонська область"/>
+  <tag k="name:ar" v="خيرسون أوبلاست"/>
+  <tag k="name:az" v="Xerson vilayəti"/>
+  <tag k="name:be" v="Херсонская вобласць"/>
+  <tag k="name:be-x-old" v="Хэрсонская вобласьць"/>
+  <tag k="name:bg" v="Херсонска област"/>
+  <tag k="name:ca" v="Província de Kherson"/>
+  <tag k="name:crh" v="Herson vilâyeti"/>
+  <tag k="name:cs" v="Chersonská oblast"/>
+  <tag k="name:de" v="Oblast Cherson"/>
+  <tag k="name:diq" v="Xerson"/>
+  <tag k="name:en" v="Kherson Oblast"/>
+  <tag k="name:eo" v="Ĥersona provinco"/>
+  <tag k="name:es" v="Óblast de Jersón"/>
+  <tag k="name:et" v="Hersoni oblast"/>
+  <tag k="name:eu" v="Khersongo oblasta"/>
+  <tag k="name:fa" v="استان خرسون"/>
+  <tag k="name:fi" v="Hersonin alue"/>
+  <tag k="name:fr" v="Oblast de Kherson"/>
+  <tag k="name:ga" v="Cúige Kherson"/>
+  <tag k="name:hr" v="Hersonska oblast"/>
+  <tag k="name:hu" v="Herszoni terület"/>
+  <tag k="name:hy" v="Խերսոնի մարզ"/>
+  <tag k="name:id" v="Oblast Kherson"/>
+  <tag k="name:it" v="Oblast' di Cherson"/>
+  <tag k="name:ja" v="ヘルソン州"/>
+  <tag k="name:ka" v="ხერსონის ოლქი"/>
+  <tag k="name:ko" v="헤르손 주"/>
+  <tag k="name:lt" v="Chersono sritis"/>
+  <tag k="name:lv" v="Hersonas apgabals"/>
+  <tag k="name:mk" v="Херсонска област"/>
+  <tag k="name:mr" v="खेर्सन ओब्लास्त"/>
+  <tag k="name:ms" v="Oblast Kherson"/>
+  <tag k="name:nl" v="Oblast Cherson"/>
+  <tag k="name:nn" v="Kherson oblast"/>
+  <tag k="name:no" v="Kherson oblast"/>
+  <tag k="name:os" v="Херсоны облæст"/>
+  <tag k="name:pl" v="Obwód chersoński"/>
+  <tag k="name:pnb" v="خیرسون اوبلاست"/>
+  <tag k="name:pt" v="Oblast de Kherson"/>
+  <tag k="name:ro" v="Regiunea Herson"/>
+  <tag k="name:ru" v="Херсонская область"/>
+  <tag k="name:rue" v="Херсоньска область"/>
+  <tag k="name:sco" v="Kherson Oblast"/>
+  <tag k="name:sh" v="Hersonska oblast"/>
+  <tag k="name:sk" v="Chersonská oblasť"/>
+  <tag k="name:sr" v="Херсонска област"/>
+  <tag k="name:sv" v="Cherson oblast"/>
+  <tag k="name:szl" v="Chersůński uobwůd"/>
+  <tag k="name:tr" v="Herson Oblastı"/>
+  <tag k="name:uk" v="Херсонська область"/>
+  <tag k="name:vi" v="Kherson (tỉnh)"/>
+  <tag k="name:war" v="Kherson Oblast"/>
+  <tag k="name:zh" v="赫尔松州"/>
+  <tag k="name:zh-min-nan" v="Xerson séng"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikipedia" v="uk:Херсонська_область"/>
+ </relation>
+</osm>

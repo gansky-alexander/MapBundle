@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.1 (10774 thorn-02.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="91278" visible="true" version="33" changeset="17122051" timestamp="2013-07-28T08:19:35Z" user="Згарбул Андрей" uid="883031">
+  <member type="way" ref="183545206" role="outer"/>
+  <member type="way" ref="128883471" role="outer"/>
+  <member type="way" ref="129253423" role="outer"/>
+  <member type="way" ref="129253397" role="outer"/>
+  <member type="way" ref="128883466" role="outer"/>
+  <member type="way" ref="200295509" role="outer"/>
+  <member type="way" ref="129253455" role="outer"/>
+  <member type="way" ref="128883420" role="outer"/>
+  <member type="way" ref="30567782" role="outer"/>
+  <member type="way" ref="30546471" role="outer"/>
+  <member type="way" ref="129567895" role="outer"/>
+  <member type="way" ref="129567969" role="outer"/>
+  <member type="way" ref="83118553" role="outer"/>
+  <member type="way" ref="129567935" role="outer"/>
+  <member type="way" ref="83118550" role="outer"/>
+  <member type="way" ref="129577311" role="outer"/>
+  <member type="way" ref="30567911" role="outer"/>
+  <member type="way" ref="128823105" role="outer"/>
+  <member type="way" ref="128823107" role="outer"/>
+  <member type="way" ref="128823091" role="outer"/>
+  <member type="way" ref="183545202" role="outer"/>
+  <member type="way" ref="128883418" role="outer"/>
+  <member type="way" ref="128823081" role="outer"/>
+  <member type="way" ref="183545207" role="outer"/>
+  <member type="way" ref="169850622" role="outer"/>
+  <member type="way" ref="169850624" role="outer"/>
+  <member type="way" ref="128883457" role="outer"/>
+  <member type="way" ref="128883438" role="outer"/>
+  <member type="way" ref="128823095" role="outer"/>
+  <member type="way" ref="157390901" role="outer"/>
+  <member type="way" ref="157385406" role="outer"/>
+  <member type="way" ref="128883419" role="outer"/>
+  <member type="way" ref="128823109" role="outer"/>
+  <member type="way" ref="128823120" role="outer"/>
+  <member type="way" ref="128883453" role="outer"/>
+  <member type="way" ref="128883450" role="outer"/>
+  <member type="way" ref="128752823" role="outer"/>
+  <member type="way" ref="128883458" role="outer"/>
+  <member type="way" ref="128752829" role="outer"/>
+  <member type="way" ref="128752815" role="outer"/>
+  <member type="way" ref="30567870" role="outer"/>
+  <member type="way" ref="129253440" role="outer"/>
+  <member type="way" ref="128883465" role="outer"/>
+  <member type="way" ref="128883442" role="outer"/>
+  <member type="way" ref="181657650" role="outer"/>
+  <member type="way" ref="129253491" role="outer"/>
+  <member type="node" ref="265056942" role="admin_centre"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="iso3166-2" v="UA-71"/>
+  <tag k="koatuu" v="7100000000"/>
+  <tag k="name" v="Черкаська область"/>
+  <tag k="name:ar" v="محافظة تشيركاسي"/>
+  <tag k="name:be" v="Чаркаская вобласць"/>
+  <tag k="name:be-x-old" v="Чаркаская вобласьць"/>
+  <tag k="name:bg" v="Черкаска област"/>
+  <tag k="name:ca" v="Província de Txerkassy"/>
+  <tag k="name:crh" v="Çerkası vilâyeti"/>
+  <tag k="name:cs" v="Čerkaská oblast"/>
+  <tag k="name:de" v="Oblast Tscherkassy"/>
+  <tag k="name:en" v="Cherkasy Oblast"/>
+  <tag k="name:eo" v="Ĉerkasa provinco"/>
+  <tag k="name:es" v="Óblast de Cherkasy"/>
+  <tag k="name:et" v="Tšerkassõ oblast"/>
+  <tag k="name:eu" v="Txerkasyko oblasta"/>
+  <tag k="name:fa" v="استان چرکاسی"/>
+  <tag k="name:fi" v="Tšerkasyn alue"/>
+  <tag k="name:fr" v="Oblast de Tcherkassy"/>
+  <tag k="name:ga" v="Cúige Cherkasy"/>
+  <tag k="name:hr" v="Čerkaška oblast"/>
+  <tag k="name:hu" v="Cserkaszi terület"/>
+  <tag k="name:hy" v="Չերկասիի մարզ"/>
+  <tag k="name:id" v="Oblast Cherkasy"/>
+  <tag k="name:it" v="Oblast' di Čerkasy"/>
+  <tag k="name:ja" v="チェルカースィ州"/>
+  <tag k="name:ka" v="ჩერკასის ოლქი"/>
+  <tag k="name:ko" v="체르카시 주"/>
+  <tag k="name:lt" v="Čerkasų sritis"/>
+  <tag k="name:lv" v="Čerkasu apgabals"/>
+  <tag k="name:mk" v="Черкаска област"/>
+  <tag k="name:mr" v="चेर्कासी ओब्लास्त"/>
+  <tag k="name:ms" v="Oblast Cherkasy"/>
+  <tag k="name:nl" v="Oblast Tsjerkasy"/>
+  <tag k="name:nn" v="Tsjerkasy oblast"/>
+  <tag k="name:no" v="Tsjerkasy oblast"/>
+  <tag k="name:pl" v="Obwód czerkaski"/>
+  <tag k="name:pnb" v="چرکیسی اوبلاست"/>
+  <tag k="name:pt" v="Oblast de Tcherkássi"/>
+  <tag k="name:ro" v="Regiunea Cerkasî"/>
+  <tag k="name:ru" v="Черкасская область"/>
+  <tag k="name:rue" v="Черкаска область"/>
+  <tag k="name:sco" v="Cherkasy Oblast"/>
+  <tag k="name:sh" v="Čerkaška oblast"/>
+  <tag k="name:sk" v="Čerkaská oblasť"/>
+  <tag k="name:sr" v="Черкашка област"/>
+  <tag k="name:sv" v="Tjerkasy oblast"/>
+  <tag k="name:szl" v="Czerkaski uobwůd"/>
+  <tag k="name:tr" v="Çerkası Oblastı"/>
+  <tag k="name:uk" v="Черкаська область"/>
+  <tag k="name:vi" v="Cherkasy (tỉnh)"/>
+  <tag k="name:war" v="Cherkasy Oblast"/>
+  <tag k="name:xmf" v="ჩერკასიშ ოლქი"/>
+  <tag k="name:zh" v="切爾卡瑟州"/>
+  <tag k="name:zh-min-nan" v="Cherkasy séng"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikipedia" v="uk:Черкаська_область"/>
+ </relation>
+</osm>

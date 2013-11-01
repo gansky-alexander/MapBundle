@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.1 (24931 thorn-01.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="72525" visible="true" version="87" changeset="18447579" timestamp="2013-10-20T09:39:45Z" user="AndrewBorowski" uid="1010630">
+  <member type="way" ref="128877123" role="outer"/>
+  <member type="way" ref="128877186" role="outer"/>
+  <member type="way" ref="128871888" role="outer"/>
+  <member type="way" ref="30545045" role="outer"/>
+  <member type="way" ref="128982568" role="outer"/>
+  <member type="way" ref="128982545" role="outer"/>
+  <member type="way" ref="128871873" role="outer"/>
+  <member type="way" ref="154523595" role="outer"/>
+  <member type="way" ref="30545019" role="outer"/>
+  <member type="way" ref="30547123" role="outer"/>
+  <member type="way" ref="172909956" role="outer"/>
+  <member type="way" ref="128871865" role="outer"/>
+  <member type="way" ref="172696015" role="outer"/>
+  <member type="way" ref="129609635" role="outer"/>
+  <member type="way" ref="128871848" role="outer"/>
+  <member type="way" ref="202866494" role="outer"/>
+  <member type="way" ref="129067430" role="outer"/>
+  <member type="way" ref="202866496" role="outer"/>
+  <member type="way" ref="129067437" role="outer"/>
+  <member type="way" ref="172909958" role="outer"/>
+  <member type="way" ref="171692762" role="outer"/>
+  <member type="way" ref="171692761" role="outer"/>
+  <member type="way" ref="194641711" role="outer"/>
+  <member type="way" ref="194641701" role="outer"/>
+  <member type="way" ref="194641702" role="outer"/>
+  <member type="way" ref="194641707" role="outer"/>
+  <member type="way" ref="194641715" role="outer"/>
+  <member type="way" ref="194641713" role="outer"/>
+  <member type="way" ref="194641706" role="outer"/>
+  <member type="way" ref="242801764" role="outer"/>
+  <member type="way" ref="239623656" role="outer"/>
+  <member type="way" ref="242036531" role="outer"/>
+  <member type="way" ref="242036530" role="outer"/>
+  <member type="way" ref="194641703" role="outer"/>
+  <member type="way" ref="194641705" role="outer"/>
+  <member type="way" ref="194641704" role="outer"/>
+  <member type="way" ref="194641709" role="outer"/>
+  <member type="way" ref="194641710" role="outer"/>
+  <member type="node" ref="1643945522" role="admin_centre"/>
+  <member type="node" ref="683681604" role="label"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/d/dc/Flag_of_Ternopil_Oblast.svg"/>
+  <tag k="iso3166-2" v="UA-61"/>
+  <tag k="koatuu" v="6100000000"/>
+  <tag k="name" v="Тернопільська область"/>
+  <tag k="name:ar" v="تيرنوبل أوبلاست"/>
+  <tag k="name:be" v="Цярнопальская вобласць"/>
+  <tag k="name:be-x-old" v="Тэрнопальская вобласьць"/>
+  <tag k="name:bg" v="Тернополска област"/>
+  <tag k="name:ca" v="Província de Ternópill"/>
+  <tag k="name:crh" v="Ternopil vilâyeti"/>
+  <tag k="name:cs" v="Ternopilská oblast"/>
+  <tag k="name:de" v="Oblast Ternopil"/>
+  <tag k="name:en" v="Ternopil Oblast"/>
+  <tag k="name:eo" v="Ternopila provinco"/>
+  <tag k="name:es" v="Óblast de Ternópil"/>
+  <tag k="name:et" v="Ternopili oblast"/>
+  <tag k="name:eu" v="Ternopilgo oblasta"/>
+  <tag k="name:fa" v="استان ترنوپیل"/>
+  <tag k="name:fi" v="Ternopilin alue"/>
+  <tag k="name:fr" v="Oblast de Ternopil"/>
+  <tag k="name:he" v="מחוז טרנופול"/>
+  <tag k="name:hr" v="Ternopiljska oblast"/>
+  <tag k="name:hu" v="Ternopili terület"/>
+  <tag k="name:hy" v="Տերնոպոլի մարզ"/>
+  <tag k="name:id" v="Oblast Ternopil"/>
+  <tag k="name:it" v="Oblast' di Ternopil'"/>
+  <tag k="name:ja" v="テルノーピリ州"/>
+  <tag k="name:ka" v="ტერნოპოლის ოლქი"/>
+  <tag k="name:ko" v="테르노필 주"/>
+  <tag k="name:lt" v="Ternopilio sritis"/>
+  <tag k="name:lv" v="Ternopiļas apgabals"/>
+  <tag k="name:mk" v="Тернополска област"/>
+  <tag k="name:mr" v="तेर्नोपिल ओब्लास्त"/>
+  <tag k="name:nl" v="Oblast Ternopil"/>
+  <tag k="name:nn" v="Ternopil oblast"/>
+  <tag k="name:no" v="Ternopil oblast"/>
+  <tag k="name:pl" v="Obwód tarnopolski"/>
+  <tag k="name:pnb" v="ترنوپل اوبلاست"/>
+  <tag k="name:pt" v="Oblast de Ternopil"/>
+  <tag k="name:ro" v="Regiunea Ternopil"/>
+  <tag k="name:ru" v="Тернопольская область"/>
+  <tag k="name:rue" v="Тернопільска область"/>
+  <tag k="name:sco" v="Ternopil Oblast"/>
+  <tag k="name:sh" v="Ternopiljska oblast"/>
+  <tag k="name:sk" v="Ternopiľská oblasť"/>
+  <tag k="name:sr" v="Тернопољска област"/>
+  <tag k="name:sv" v="Ternopil oblast"/>
+  <tag k="name:szl" v="Tarnopolski uobwůd"/>
+  <tag k="name:tr" v="Ternopil Oblastı"/>
+  <tag k="name:uk" v="Тернопільська область"/>
+  <tag k="name:vi" v="Ternopil (tỉnh)"/>
+  <tag k="name:war" v="Ternopil Oblast"/>
+  <tag k="name:zh" v="捷爾諾波爾州"/>
+  <tag k="name:zh-min-nan" v="Ternopil séng"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikipedia" v="uk:Тернопільська_область"/>
+ </relation>
+</osm>

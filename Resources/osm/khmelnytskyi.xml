@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<osm version="0.6" generator="CGImap 0.3.1 (24928 thorn-01.openstreetmap.org)" copyright="OpenStreetMap and contributors" attribution="http://www.openstreetmap.org/copyright" license="http://opendatacommons.org/licenses/odbl/1-0/">
+ <relation id="90742" visible="true" version="46" changeset="18447579" timestamp="2013-10-20T09:39:46Z" user="AndrewBorowski" uid="1010630">
+  <member type="way" ref="128877123" role="outer"/>
+  <member type="way" ref="128877186" role="outer"/>
+  <member type="way" ref="128871888" role="outer"/>
+  <member type="way" ref="30545045" role="outer"/>
+  <member type="way" ref="30545234" role="outer"/>
+  <member type="way" ref="128877126" role="outer"/>
+  <member type="way" ref="115602857" role="outer"/>
+  <member type="way" ref="166607482" role="outer"/>
+  <member type="way" ref="128877135" role="outer"/>
+  <member type="way" ref="128877131" role="outer"/>
+  <member type="way" ref="128982594" role="outer"/>
+  <member type="way" ref="128982601" role="outer"/>
+  <member type="way" ref="183535025" role="outer"/>
+  <member type="way" ref="128877181" role="outer"/>
+  <member type="way" ref="128877183" role="outer"/>
+  <member type="way" ref="183535031" role="outer"/>
+  <member type="way" ref="129274493" role="outer"/>
+  <member type="way" ref="128877144" role="outer"/>
+  <member type="way" ref="128877188" role="outer"/>
+  <member type="way" ref="30545261" role="outer"/>
+  <member type="way" ref="128877187" role="outer"/>
+  <member type="way" ref="48575282" role="outer"/>
+  <member type="way" ref="128877190" role="outer"/>
+  <member type="way" ref="48575281" role="outer"/>
+  <member type="way" ref="74687856" role="outer"/>
+  <member type="way" ref="128877125" role="outer"/>
+  <member type="way" ref="128877189" role="outer"/>
+  <member type="way" ref="129567945" role="outer"/>
+  <member type="way" ref="30546916" role="outer"/>
+  <member type="way" ref="194541614" role="outer"/>
+  <member type="way" ref="194541615" role="outer"/>
+  <member type="way" ref="194641708" role="outer"/>
+  <member type="way" ref="128978198" role="outer"/>
+  <member type="way" ref="194641713" role="outer"/>
+  <member type="way" ref="194641706" role="outer"/>
+  <member type="way" ref="242801764" role="outer"/>
+  <member type="way" ref="239623656" role="outer"/>
+  <member type="way" ref="242036531" role="outer"/>
+  <member type="way" ref="242036530" role="outer"/>
+  <member type="way" ref="194641703" role="outer"/>
+  <member type="way" ref="194641705" role="outer"/>
+  <member type="way" ref="194641704" role="outer"/>
+  <member type="way" ref="194641709" role="outer"/>
+  <member type="way" ref="194641710" role="outer"/>
+  <member type="node" ref="251223522" role="admin_centre"/>
+  <tag k="admin_level" v="4"/>
+  <tag k="boundary" v="administrative"/>
+  <tag k="iso3166-2" v="UA-68"/>
+  <tag k="koatuu" v="6800000000"/>
+  <tag k="name" v="Хмельницька область"/>
+  <tag k="name:ar" v="خملنيتسكي أوبلاست"/>
+  <tag k="name:be" v="Хмяльніцкая вобласць"/>
+  <tag k="name:be-x-old" v="Хмяльніцкая вобласьць"/>
+  <tag k="name:bg" v="Хмелницка област"/>
+  <tag k="name:ca" v="Província de Khmelnytskyi"/>
+  <tag k="name:crh" v="Hmelnıtskıy vilâyeti"/>
+  <tag k="name:cs" v="Chmelnycká oblast"/>
+  <tag k="name:de" v="Oblast Chmelnyzkyj"/>
+  <tag k="name:en" v="Khmelnytskyi Oblast"/>
+  <tag k="name:eo" v="Ĥmelnicka provinco"/>
+  <tag k="name:es" v="Óblast de Jmelnitski"/>
+  <tag k="name:et" v="Hmelnõtskõi oblast"/>
+  <tag k="name:eu" v="Khmelnytskyko oblasta"/>
+  <tag k="name:fa" v="استان خملنیتسکی"/>
+  <tag k="name:fi" v="Hmelnitskyin alue"/>
+  <tag k="name:fr" v="Oblast de Khmelnitski"/>
+  <tag k="name:hr" v="Hmeljnička oblast"/>
+  <tag k="name:hu" v="Hmelnickiji terület"/>
+  <tag k="name:hy" v="Խմելնիցկու մարզ"/>
+  <tag k="name:id" v="Oblast Khmelnytskyi"/>
+  <tag k="name:it" v="Oblast' di Chmel'nyc'kyj"/>
+  <tag k="name:ja" v="フメリヌィーツィクィイ州"/>
+  <tag k="name:ka" v="ხმელნიცკის ოლქი"/>
+  <tag k="name:ko" v="흐멜니츠키 주"/>
+  <tag k="name:lt" v="Chmelnyckio sritis"/>
+  <tag k="name:lv" v="Hmeļņickas apgabals"/>
+  <tag k="name:mk" v="Хмелничка област"/>
+  <tag k="name:mr" v="ख्मेल्नित्स्की ओब्लास्त"/>
+  <tag k="name:nl" v="Oblast Chmelnitski"/>
+  <tag k="name:nn" v="Khmelnytskyj oblast"/>
+  <tag k="name:no" v="Khmelnytskyj oblast"/>
+  <tag k="name:pl" v="Obwód chmielnicki"/>
+  <tag k="name:pnb" v="خمیلنیتسکی اوبلاست"/>
+  <tag k="name:pt" v="Oblast de Khmelnitski"/>
+  <tag k="name:ro" v="Regiunea Hmelnițki"/>
+  <tag k="name:ru" v="Хмельницкая область"/>
+  <tag k="name:rue" v="Хмельницька область"/>
+  <tag k="name:sco" v="Khmelnytskyi Oblast"/>
+  <tag k="name:sh" v="Hmeljnička oblast"/>
+  <tag k="name:sk" v="Chmeľnycká oblasť"/>
+  <tag k="name:sr" v="Хмељничка област"/>
+  <tag k="name:sv" v="Chmelnytskyj oblast"/>
+  <tag k="name:szl" v="Chmjylńicki uobwůd"/>
+  <tag k="name:tr" v="Hmelnitski Oblastı"/>
+  <tag k="name:uk" v="Хмельницька область"/>
+  <tag k="name:vi" v="Khmelnytskyi (tỉnh)"/>
+  <tag k="name:war" v="Khmelnytskyi Oblast"/>
+  <tag k="name:zh" v="赫梅利尼茨基州"/>
+  <tag k="name:zh-min-nan" v="Xmelnyczkyj séng"/>
+  <tag k="type" v="boundary"/>
+  <tag k="wikipedia" v="uk:Хмельницька_область"/>
+ </relation>
+</osm>

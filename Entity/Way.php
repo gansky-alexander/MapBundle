@@ -19,7 +19,7 @@ class Way
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $id;
-
+	
     /**
      *
      * @ORM\Column(name="name", type="string", length=255)
