@@ -36,6 +36,10 @@ gansky_map:
     }
 }
 ```
+
+```Shell
+php app/console map:load-data dnipropetrovsk yes
+```
 Bundle for map.
 
 TODOS:
