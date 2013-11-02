@@ -39,6 +39,7 @@ gansky_map:
 
 ```Shell
 php app/console map:load-data dnipropetrovsk yes
+php app/console map:load-data donetsk yes
 ```
 Bundle for map.
 
