@@ -3,6 +3,7 @@ MapBundle
 
 How to install:
 * Update AppCernel.php
+* --------------------
 
 ``` php
         $bundles = array(
@@ -15,6 +16,7 @@ How to install:
 ```
 
 * Update routing.yml
+* ------------------
 
 ``` yaml
 gansky_map:
@@ -24,6 +26,7 @@ gansky_map:
 ```
 
 * composer.json
+* -------------
 
 ```js
 {
@@ -38,6 +41,7 @@ gansky_map:
 ```
 
 * Load initial data
+* -----------------
 ```Shell
 php app/console map:load-data cherkasy yes
 php app/console map:load-data chernihiv yes
@@ -68,6 +72,7 @@ php app/console map:load-data zhytomyr
 Bundle for map.
 
 TODOS:
+------
 * ~~Показывать карту с отрисованными границами;~~
 * Назначение цветов для определенной отрисованной границы;
 * Расчет цветов областей в зависимости то некоторых статистических данных;
