@@ -1,7 +1,3 @@
-MapBundle
-=========
-
-How to install:
 Update AppCernel.php
 --------------------
 
