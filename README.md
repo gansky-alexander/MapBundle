@@ -41,6 +41,7 @@ gansky_map:
 php app/console map:load-data dnipropetrovsk yes
 php app/console map:load-data donetsk yes
 php app/console map:load-data kharkiv
+php app/console map:load-data lugansk
 ```
 Bundle for map.
 
