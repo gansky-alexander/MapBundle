@@ -2,7 +2,7 @@ MapBundle
 =========
 
 How to install:
-1. Update AppCernel.php
+* Update AppCernel.php
 
 ``` php
         $bundles = array(
@@ -14,7 +14,7 @@ How to install:
         );
 ```
 
-2. Update routing.yml
+* Update routing.yml
 
 ``` yaml
 gansky_map:
@@ -23,7 +23,7 @@ gansky_map:
   	  prefix:   /
 ```
 
-3. composer.json
+* composer.json
 
 ```js
 {
@@ -37,7 +37,7 @@ gansky_map:
 }
 ```
 
-4. Load initial data
+* Load initial data
 ```Shell
 php app/console map:load-data cherkasy yes
 php app/console map:load-data chernihiv yes
