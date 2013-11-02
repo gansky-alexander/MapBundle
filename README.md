@@ -37,6 +37,7 @@ gansky_map:
 }
 ```
 
+4. Load initial data
 ```Shell
 php app/console map:load-data cherkasy yes
 php app/console map:load-data chernihiv yes
