@@ -65,6 +65,7 @@ php app/console map:load-data vinnytsia yes
 php app/console map:load-data zaporizhzhia
 php app/console map:load-data zhytomyr
 ```
+Data get from http://www.openstreetmap.org/browse/relation/72639.
 Bundle for map.
 
 TODOS:
