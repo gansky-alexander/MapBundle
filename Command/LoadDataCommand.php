@@ -29,7 +29,7 @@ class LoadDataCommand extends ContainerAwareCommand
 
     protected function execute(InputInterface $input, OutputInterface $output)
     {	
-		
+		echo $input->getArgument('xml_file') . ' starts;';
 		$this->nodeAddress = __DIR__ . '\\..\\Resources\\osm\\' . $input->getArgument('xml_file') . '.xml';
 		$this->entityManager = $this->getContainer()->get('doctrine')->getEntityManager();
 		
@@ -96,6 +96,7 @@ class LoadDataCommand extends ContainerAwareCommand
 			$lastPoint['lon'] = $point->getLongitude();
 			$memverI++;
 		}
+		echo $input->getArgument('xml_file') . ' finished;';
 	}
 	
 	public static function getDistance($lat1, $lon1, $lat2, $lon2)

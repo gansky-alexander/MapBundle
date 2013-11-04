@@ -48,11 +48,11 @@ class MapController extends Controller {
                 ->select('p.latitude, p.longitude, w.id')
                 ->innerJoin('p.waySet', 'ws')
                 ->innerJoin('ws.way', 'w')
-                ->andWhere('w.level = :way_level')
+                // ->andWhere('w.level = :way_level')
                 ->andWhere('p.latitude > :south_west_latitude OR p.latitude < :north_east_latitude')
                 ->andWhere('p.longitude > :south_west_longitude OR p.longitude < :north_east_longitude')
                 ->setParameters(array(
-                    'way_level' => $zoom,
+                    // 'way_level' => $zoom,
                     'south_west_latitude' => $south_west_latitude,
                     'north_east_latitude' => $north_east_latitude,
                     'south_west_longitude' => $south_west_longitude,
