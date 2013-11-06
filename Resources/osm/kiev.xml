@@ -5988,93 +5988,6 @@
   <nd ref="561146783"/>
   <nd ref="561146788"/>
  </way>
- <way id="23491639" visible="true" version="14" changeset="17479916" timestamp="2013-08-24T07:30:37Z" user="dudka" uid="440812">
-  <nd ref="254394034"/>
-  <nd ref="254394035"/>
-  <nd ref="1841823684"/>
-  <nd ref="1690207897"/>
-  <nd ref="1348660127"/>
-  <nd ref="254394036"/>
-  <nd ref="1690207833"/>
-  <nd ref="1348659892"/>
-  <nd ref="1885769066"/>
-  <nd ref="254394038"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
- <way id="26570136" visible="true" version="27" changeset="17479916" timestamp="2013-08-24T07:30:45Z" user="dudka" uid="440812">
-  <nd ref="293954516"/>
-  <nd ref="1690923336"/>
-  <nd ref="254394007"/>
-  <nd ref="254393969"/>
-  <nd ref="1150861567"/>
-  <nd ref="1297496066"/>
-  <nd ref="1297496061"/>
-  <nd ref="1759556316"/>
-  <nd ref="1686466942"/>
-  <nd ref="1348659119"/>
-  <nd ref="1686466941"/>
-  <nd ref="254393968"/>
-  <nd ref="1560033274"/>
-  <nd ref="409819019"/>
-  <nd ref="409832411"/>
-  <nd ref="409832408"/>
-  <nd ref="254393960"/>
-  <nd ref="1150861685"/>
-  <nd ref="254393958"/>
-  <nd ref="1348660238"/>
-  <nd ref="1150861201"/>
-  <nd ref="1150861228"/>
-  <nd ref="1150861257"/>
-  <nd ref="254393946"/>
-  <nd ref="1234733893"/>
-  <nd ref="254394021"/>
-  <nd ref="254394022"/>
-  <nd ref="1234733894"/>
-  <nd ref="1348659747"/>
-  <nd ref="1348660142"/>
-  <nd ref="254394023"/>
-  <nd ref="254393945"/>
-  <nd ref="1348659922"/>
-  <nd ref="1348659318"/>
-  <nd ref="1629420761"/>
-  <nd ref="254394026"/>
-  <nd ref="254394027"/>
-  <nd ref="26329805"/>
-  <nd ref="1348659552"/>
-  <nd ref="249330409"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
- <way id="27877971" visible="true" version="8" changeset="17479916" timestamp="2013-08-24T07:30:40Z" user="dudka" uid="440812">
-  <nd ref="254394038"/>
-  <nd ref="254394039"/>
-  <tag k="bridge" v="yes"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="layer" v="1"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
  <way id="29079576" visible="true" version="8" changeset="17802052" timestamp="2013-09-12T15:46:35Z" user="Zcor" uid="704753">
   <nd ref="243059850"/>
   <nd ref="243059854"/>
@@ -6754,77 +6667,6 @@
   <nd ref="354523326"/>
   <tag k="highway" v="tertiary"/>
  </way>
- <way id="34926473" visible="true" version="10" changeset="17479916" timestamp="2013-08-24T07:30:42Z" user="dudka" uid="440812">
-  <nd ref="254394039"/>
-  <nd ref="306080753"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
- <way id="37840489" visible="true" version="8" changeset="17479916" timestamp="2013-08-24T07:30:39Z" user="dudka" uid="440812">
-  <nd ref="249330409"/>
-  <nd ref="1434998134"/>
-  <tag k="bridge" v="yes"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="layer" v="1"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
- <way id="37840490" visible="true" version="7" changeset="17479916" timestamp="2013-08-24T07:30:41Z" user="dudka" uid="440812">
-  <nd ref="249330408"/>
-  <nd ref="252419311"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
- <way id="37840562" visible="true" version="7" changeset="17479916" timestamp="2013-08-24T07:30:42Z" user="dudka" uid="440812">
-  <nd ref="252419311"/>
-  <nd ref="252419589"/>
-  <tag k="bridge" v="yes"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="layer" v="1"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
- <way id="37840563" visible="true" version="10" changeset="17479916" timestamp="2013-08-24T07:30:45Z" user="dudka" uid="440812">
-  <nd ref="252419589"/>
-  <nd ref="26329814"/>
-  <nd ref="248797999"/>
-  <nd ref="248798000"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
  <way id="51551873" visible="true" version="11" changeset="16662280" timestamp="2013-06-22T22:02:28Z" user="matvey_kiev_ua" uid="371387">
   <nd ref="2145235107"/>
   <nd ref="2356591786"/>
@@ -6878,90 +6720,6 @@
   <nd ref="337768358"/>
   <nd ref="1781675554"/>
   <nd ref="337768353"/>
- </way>
- <way id="51551885" visible="true" version="15" changeset="17479916" timestamp="2013-08-24T07:30:43Z" user="dudka" uid="440812">
-  <nd ref="337768353"/>
-  <nd ref="1348659350"/>
-  <nd ref="254394053"/>
-  <nd ref="254394001"/>
-  <nd ref="2362965899"/>
-  <nd ref="254393999"/>
-  <nd ref="1348659760"/>
-  <nd ref="437505927"/>
-  <nd ref="1348660270"/>
-  <nd ref="1838131162"/>
-  <nd ref="1838131124"/>
-  <nd ref="1348659188"/>
-  <nd ref="1839038827"/>
-  <nd ref="254394056"/>
-  <nd ref="440921497"/>
-  <nd ref="1839137367"/>
-  <nd ref="1348659219"/>
-  <nd ref="1839746996"/>
-  <nd ref="254393989"/>
-  <nd ref="254393987"/>
-  <nd ref="1348659787"/>
-  <nd ref="254394057"/>
-  <nd ref="1348660199"/>
-  <nd ref="254394058"/>
-  <nd ref="1768948630"/>
-  <nd ref="440921501"/>
-  <nd ref="254394034"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
- <way id="51551887" visible="true" version="8" changeset="17479916" timestamp="2013-08-24T07:30:38Z" user="dudka" uid="440812">
-  <nd ref="409785322"/>
-  <nd ref="409785323"/>
-  <nd ref="409785324"/>
-  <nd ref="409785325"/>
-  <nd ref="409785326"/>
-  <nd ref="254393980"/>
-  <nd ref="254394033"/>
-  <nd ref="1348659431"/>
-  <nd ref="254393979"/>
-  <nd ref="1629420817"/>
-  <nd ref="293954516"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
- <way id="51551888" visible="true" version="14" changeset="17479916" timestamp="2013-08-24T07:30:38Z" user="dudka" uid="440812">
-  <nd ref="291329733"/>
-  <nd ref="291329737"/>
-  <nd ref="1399656373"/>
-  <nd ref="291329738"/>
-  <nd ref="1624462324"/>
-  <nd ref="291329739"/>
-  <nd ref="1348659805"/>
-  <nd ref="1629036121"/>
-  <nd ref="1399665371"/>
-  <nd ref="1629036112"/>
-  <nd ref="1296973893"/>
-  <nd ref="2408842511"/>
-  <nd ref="1434998073"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
  </way>
  <way id="51551889" visible="true" version="3" changeset="10628933" timestamp="2012-02-08T21:20:40Z" user="dudka" uid="440812">
   <nd ref="291329733"/>
@@ -9934,35 +9692,6 @@
   <tag k="admin_level" v="4"/>
   <tag k="boundary" v="administrative"/>
  </way>
- <way id="130206845" visible="true" version="5" changeset="17479916" timestamp="2013-08-24T07:30:43Z" user="dudka" uid="440812">
-  <nd ref="1434998073"/>
-  <nd ref="2408842513"/>
-  <nd ref="252613124"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
- <way id="130206846" visible="true" version="4" changeset="17479916" timestamp="2013-08-24T07:30:41Z" user="dudka" uid="440812">
-  <nd ref="1434998134"/>
-  <nd ref="249330408"/>
-  <tag k="bridge" v="yes"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="layer" v="1"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
  <way id="130206871" visible="true" version="2" changeset="10371863" timestamp="2012-01-12T18:28:54Z" user="dudka" uid="440812">
   <nd ref="60416220"/>
   <nd ref="1352863979"/>
@@ -12013,23 +11742,6 @@
   <nd ref="1928796574"/>
   <nd ref="1905347906"/>
  </way>
- <way id="182891934" visible="true" version="3" changeset="17479916" timestamp="2013-08-24T07:30:46Z" user="dudka" uid="440812">
-  <nd ref="306080753"/>
-  <nd ref="409785318"/>
-  <nd ref="409785319"/>
-  <nd ref="409785320"/>
-  <nd ref="409785321"/>
-  <nd ref="409785322"/>
-  <tag k="highway" v="trunk"/>
-  <tag k="int_ref" v="E 40"/>
-  <tag k="loc_ref" v="Т-10-27"/>
-  <tag k="name" v="Кільцева дорога"/>
-  <tag k="name:en" v="Kiltseva Way"/>
-  <tag k="name:ru" v="Кольцевая дорога"/>
-  <tag k="name:uk" v="Кільцева дорога"/>
-  <tag k="oneway" v="yes"/>
-  <tag k="ref" v="Т-10-27"/>
- </way>
  <way id="183198559" visible="true" version="2" changeset="14254269" timestamp="2012-12-12T21:55:16Z" user="_sev" uid="356014">
   <nd ref="1935617372"/>
   <nd ref="337765586"/>
@@ -12638,8 +12350,8 @@
   <member type="way" ref="138602511" role="outer"/>
   <member type="way" ref="129274437" role="outer"/>
   <member type="way" ref="181094817" role="outer"/>
-  <member type="way" ref="129253273" role="outer"/>
   <member type="way" ref="237681742" role="outer"/>
+  <member type="way" ref="129253273" role="outer"/>
   <member type="way" ref="29079578" role="outer"/>
   <member type="way" ref="237691330" role="outer"/>
   <member type="way" ref="29079576" role="outer"/>
@@ -12677,7 +12389,6 @@
   <member type="way" ref="130230034" role="outer"/>
   <member type="way" ref="130230041" role="outer"/>
   <member type="way" ref="130230035" role="outer"/>
-  <member type="way" ref="130206845" role="inner"/>
   <member type="way" ref="193417128" role="inner"/>
   <member type="way" ref="149210535" role="inner"/>
   <member type="way" ref="149210497" role="inner"/>
@@ -12779,23 +12490,10 @@
   <member type="way" ref="5212679" role="inner"/>
   <member type="way" ref="103980492" role="inner"/>
   <member type="way" ref="51551879" role="inner"/>
-  <member type="way" ref="51551885" role="inner"/>
-  <member type="way" ref="23491639" role="inner"/>
-  <member type="way" ref="27877971" role="inner"/>
-  <member type="way" ref="34926473" role="inner"/>
-  <member type="way" ref="182891934" role="inner"/>
-  <member type="way" ref="51551887" role="inner"/>
-  <member type="way" ref="26570136" role="inner"/>
-  <member type="way" ref="37840489" role="inner"/>
-  <member type="way" ref="130206846" role="inner"/>
-  <member type="way" ref="37840490" role="inner"/>
-  <member type="way" ref="37840562" role="inner"/>
-  <member type="way" ref="37840563" role="inner"/>
   <member type="way" ref="149489946" role="inner"/>
   <member type="way" ref="149480235" role="inner"/>
   <member type="way" ref="149480234" role="inner"/>
   <member type="way" ref="51551889" role="inner"/>
-  <member type="way" ref="51551888" role="inner"/>
   <member type="way" ref="182519273" role="outer"/>
   <member type="way" ref="182519269" role="outer"/>
   <member type="way" ref="180099934" role="outer"/>
