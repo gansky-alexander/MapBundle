@@ -12354,11 +12354,10 @@
   <member type="way" ref="129253273" role="outer"/>
   <member type="way" ref="29079578" role="outer"/>
   <member type="way" ref="237691330" role="outer"/>
-  <member type="way" ref="29079578" role="outer"/>
-  <member type="way" ref="237691328" role="outer"/>
   <member type="way" ref="29079576" role="outer"/>
-  <member type="way" ref="237691329" role="outer"/>
+  <member type="way" ref="237691328" role="outer"/>
   <member type="way" ref="30597469" role="outer"/>
+  <member type="way" ref="237691329" role="outer"/>
   <member type="way" ref="183198560" role="outer"/>
   <member type="way" ref="129253181" role="outer"/>
   <member type="way" ref="98992866" role="outer"/>
@@ -12501,6 +12500,7 @@
   <member type="way" ref="183198565" role="outer"/>
   <member type="way" ref="180099953" role="outer"/>
   <member type="way" ref="182519272" role="outer"/>
+  <member type="node" ref="26150422" role="admin_centre"/>
   <tag k="admin_level" v="4"/>
   <tag k="boundary" v="administrative"/>
   <tag k="flag" v="http://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_Kiev_Oblast.svg"/>

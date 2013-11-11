@@ -10,8 +10,8 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table()
  * @ORM\Entity
  */
-class MapType {
-
+class MapType
+{
     /**
      * @var integer
      *
@@ -28,23 +28,25 @@ class MapType {
      */
     private $name;
 
-    /**
-     * @var string
-     * @ORM\Column(name="color", type="string", length=8)
+     /**
+     * @ORM\OneToMany(targetEntity="Gansky\MapBundle\Entity\MapTypeValue", mappedBy="mapType")
      */
-    private $color;
-
+    private $mapTypeValue;
     /**
-     * @ORM\OneToMany(targetEntity="Gansky\MapBundle\Entity\StatisticData", mappedBy="mapType")
+     * Constructor
      */
-    private $statisticData;
-
+    public function __construct()
+    {
+        $this->mapTypeValue = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
     /**
      * Get id
      *
      * @return integer 
      */
-    public function getId() {
+    public function getId()
+    {
         return $this->id;
     }
 
@@ -54,9 +56,10 @@ class MapType {
      * @param string $name
      * @return MapType
      */
-    public function setName($name) {
+    public function setName($name)
+    {
         $this->name = $name;
-
+    
         return $this;
     }
 
@@ -65,71 +68,41 @@ class MapType {
      *
      * @return string 
      */
-    public function getName() {
+    public function getName()
+    {
         return $this->name;
     }
 
     /**
-     * Constructor
-     */
-    public function __construct()
-    {
-        $this->statisticData = new \Doctrine\Common\Collections\ArrayCollection();
-    }
-    
-    /**
-     * Set color
+     * Add mapTypeValue
      *
-     * @param string $color
+     * @param \Gansky\MapBundle\Entity\MapTypeValue $mapTypeValue
      * @return MapType
      */
-    public function setColor($color)
+    public function addMapTypeValue(\Gansky\MapBundle\Entity\MapTypeValue $mapTypeValue)
     {
-        $this->color = $color;
+        $this->mapTypeValue[] = $mapTypeValue;
     
         return $this;
     }
 
     /**
-     * Get color
+     * Remove mapTypeValue
      *
-     * @return string 
+     * @param \Gansky\MapBundle\Entity\MapTypeValue $mapTypeValue
      */
-    public function getColor()
+    public function removeMapTypeValue(\Gansky\MapBundle\Entity\MapTypeValue $mapTypeValue)
     {
-        return $this->color;
+        $this->mapTypeValue->removeElement($mapTypeValue);
     }
 
     /**
-     * Add statisticData
-     *
-     * @param \Gansky\MapBundle\Entity\StatisticData $statisticData
-     * @return MapType
-     */
-    public function addStatisticData(\Gansky\MapBundle\Entity\StatisticData $statisticData)
-    {
-        $this->statisticData[] = $statisticData;
-    
-        return $this;
-    }
-
-    /**
-     * Remove statisticData
-     *
-     * @param \Gansky\MapBundle\Entity\StatisticData $statisticData
-     */
-    public function removeStatisticData(\Gansky\MapBundle\Entity\StatisticData $statisticData)
-    {
-        $this->statisticData->removeElement($statisticData);
-    }
-
-    /**
-     * Get statisticData
+     * Get mapTypeValue
      *
      * @return \Doctrine\Common\Collections\Collection 
      */
-    public function getStatisticData()
+    public function getMapTypeValue()
     {
-        return $this->statisticData;
+        return $this->mapTypeValue;
     }
 }

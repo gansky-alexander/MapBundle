@@ -73,8 +73,8 @@
                         $.each(way.points, function(point_index, point) {
                             latlng.push(new L.LatLng(point.lat, point.lon));
                         });
-                        layer.addLayer(new L.Polygon(latlng, { color: '#' + way.color }));
-                        {# layer.addLayer(new L.Polygon(latlng, { color: 'red' }));#}
+                        {# layer.addLayer(new L.Polygon(latlng, { color: '#' + way.color })); #}
+                        layer.addLayer(new L.Polygon(latlng, { color: 'red' }));
                     });
                 });
             }

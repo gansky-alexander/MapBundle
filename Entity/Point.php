@@ -43,7 +43,14 @@ class Point
      * @ORM\OneToMany(targetEntity="Gansky\MapBundle\Entity\WaySet", mappedBy="point")
      */
     private $waySet;
-
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->waySet = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
     /**
      * Get id
      *
@@ -52,6 +59,29 @@ class Point
     public function getId()
     {
         return $this->id;
+    }
+
+    /**
+     * Set bk
+     *
+     * @param integer $bk
+     * @return Point
+     */
+    public function setBk($bk)
+    {
+        $this->bk = $bk;
+    
+        return $this;
+    }
+
+    /**
+     * Get bk
+     *
+     * @return integer 
+     */
+    public function getBk()
+    {
+        return $this->bk;
     }
 
     /**
@@ -99,14 +129,7 @@ class Point
     {
         return $this->longitude;
     }
-    /**
-     * Constructor
-     */
-    public function __construct()
-    {
-        $this->waySet = new \Doctrine\Common\Collections\ArrayCollection();
-    }
-    
+
     /**
      * Add waySet
      *
@@ -138,28 +161,5 @@ class Point
     public function getWaySet()
     {
         return $this->waySet;
-    }
-
-    /**
-     * Set bk
-     *
-     * @param integer $bk
-     * @return Point
-     */
-    public function setBk($bk)
-    {
-        $this->bk = $bk;
-    
-        return $this;
-    }
-
-    /**
-     * Get bk
-     *
-     * @return integer 
-     */
-    public function getBk()
-    {
-        return $this->bk;
     }
 }

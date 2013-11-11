@@ -1,0 +1,41 @@
+<?php
+
+namespace Gansky\MapBundle\Entity;
+
+use Doctrine\ORM\Mapping as ORM;
+
+/**
+ * MapTypeValue
+ *
+ * @ORM\Table()
+ * @ORM\Entity
+ */
+class MapTypeValue
+{
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="id", type="integer")
+     * @ORM\Id
+     * @ORM\GeneratedValue(strategy="AUTO")
+     */
+    private $id;
+
+    /**
+     * @var string
+     *
+     * @ORM\Column(name="color", type="string", length=6)
+     */
+    private $color;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Gansky\MapBundle\Entity\MapType", inversedBy="mapTypeValue") 
+     */
+    private $mapType;
+
+    /**
+     * @ORM\ManyToOne(targetEntity="Gansky\MapBundle\Entity\Way", inversedBy="mapTypeValue") 
+     */
+    private $way;
+}

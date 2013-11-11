@@ -12,6 +12,7 @@ use Doctrine\ORM\Mapping as ORM;
  */
 class Way
 {
+
     /**
      *
      * @ORM\Column(name="id", type="integer")
@@ -19,7 +20,7 @@ class Way
      * @ORM\GeneratedValue(strategy="AUTO")
      */
     private $id;
-	
+
     /**
      *
      * @ORM\Column(name="name", type="string", length=255)
@@ -38,6 +39,20 @@ class Way
      */
     private $waySet;
 
+    /**
+     * @ORM\OneToMany(targetEntity="Gansky\MapBundle\Entity\MapTypeValue", mappedBy="way")
+     */
+    private $mapTypeValue;
+
+    /**
+     * Constructor
+     */
+    public function __construct()
+    {
+        $this->waySet = new \Doctrine\Common\Collections\ArrayCollection();
+        $this->mapTypeValue = new \Doctrine\Common\Collections\ArrayCollection();
+    }
+    
     /**
      * Get id
      *
@@ -70,14 +85,30 @@ class Way
     {
         return $this->name;
     }
+
     /**
-     * Constructor
+     * Set level
+     *
+     * @param integer $level
+     * @return Way
      */
-    public function __construct()
+    public function setLevel($level)
     {
-        $this->waySet = new \Doctrine\Common\Collections\ArrayCollection();
-    }
+        $this->level = $level;
     
+        return $this;
+    }
+
+    /**
+     * Get level
+     *
+     * @return integer 
+     */
+    public function getLevel()
+    {
+        return $this->level;
+    }
+
     /**
      * Add waySet
      *
@@ -112,25 +143,35 @@ class Way
     }
 
     /**
-     * Set level
+     * Add mapTypeValue
      *
-     * @param integer $level
+     * @param \Gansky\MapBundle\Entity\MapTypeValue $mapTypeValue
      * @return Way
      */
-    public function setLevel($level)
+    public function addMapTypeValue(\Gansky\MapBundle\Entity\MapTypeValue $mapTypeValue)
     {
-        $this->level = $level;
+        $this->mapTypeValue[] = $mapTypeValue;
     
         return $this;
     }
 
     /**
-     * Get level
+     * Remove mapTypeValue
      *
-     * @return integer 
+     * @param \Gansky\MapBundle\Entity\MapTypeValue $mapTypeValue
      */
-    public function getLevel()
+    public function removeMapTypeValue(\Gansky\MapBundle\Entity\MapTypeValue $mapTypeValue)
     {
-        return $this->level;
+        $this->mapTypeValue->removeElement($mapTypeValue);
+    }
+
+    /**
+     * Get mapTypeValue
+     *
+     * @return \Doctrine\Common\Collections\Collection 
+     */
+    public function getMapTypeValue()
+    {
+        return $this->mapTypeValue;
     }
 }

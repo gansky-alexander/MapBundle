@@ -90,6 +90,7 @@ class LoadDataCommand extends ContainerAwareCommand
 				$waySet->setWay($way);
 				$this->entityManager->persist($waySet);	
 				$this->entityManager->flush();
+				sleep(1);
 			}
 			$lastPoint = array();
 			$lastPoint['lat'] = $point->getLatitude();
