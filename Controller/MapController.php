@@ -87,37 +87,17 @@ class MapController extends Controller
             $returns[$value['id']]['points'][$key]['lon'] = $value['longitude'];
         }
 
-//        $bounds = $this->em->getRepository('GanskyMapBundle:Point')
-//                ->createQueryBuilder('p')
-//                ->select('p.latitude, p.longitude, w.id, mtv.color')
-//                ->innerJoin('p.waySet', 'ws')
-//                ->innerJoin('ws.way', 'w')
-//                ->innerJoin('w.mapTypeValue', 'mtv')
-        // ->andWhere('w.level = :way_level')
-//                ->andWhere('p.latitude > :south_west_latitude OR p.latitude < :north_east_latitude')
-//                ->andWhere('p.longitude > :south_west_longitude OR p.longitude < :north_east_longitude')
-//                ->setParameters(array(
-//         'way_level' => $zoom,
-//                    'south_west_latitude' => $south_west_latitude,
-//                    'north_east_latitude' => $north_east_latitude,
-//                    'south_west_longitude' => $south_west_longitude,
-//                    'north_east_longitude' => $north_east_longitude
-//                ))
-//                ->getQuery()
-//                ->limit(10)
-//                ->getResult(Query::HYDRATE_ARRAY);
-//
-//        $i = 0;
-//        foreach ($bounds As $key => $value) {
-//            if (!isset($returns[$value['id']])) {
-//                $returns[$value['id']] = array();
-//            }
-//            $returns[$value['id']][$i]['latitude'] = $value['latitude'];
-//            $returns[$value['id']][$i]['longitude'] = $value['longitude'];
-//            $i++;
-//        }
-
         return new \Symfony\Component\HttpFoundation\JsonResponse($returns);
     }
 
+    /**
+     * Controller for creating new custom polygon.
+     * 
+     * @Route("/new-polygon", name="new_custom_polygon")
+     * @Template()
+     */
+    public function newAction() {
+        return array();
+    }
+    
 }
